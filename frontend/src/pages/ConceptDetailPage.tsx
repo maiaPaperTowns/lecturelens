@@ -32,7 +32,7 @@ export function ConceptDetailPage() {
           </div>
         </div>
 
-        <div className="card p-4">
+        <div className="glass p-4">
           <h2 className="text-sm font-semibold text-ink">Snippet</h2>
           <p className="mt-1 text-sm text-ink">{data.snippet}</p>
           {data.original_text && data.original_text !== data.snippet && (
@@ -43,7 +43,7 @@ export function ConceptDetailPage() {
           )}
         </div>
 
-        <div className="card p-4">
+        <div className="glass p-4">
           <h2 className="text-sm font-semibold text-ink">Model predictions</h2>
           <table className="mt-2 w-full text-sm">
             <thead className="text-left text-xs uppercase text-ink-faint">
@@ -79,7 +79,7 @@ export function ConceptDetailPage() {
       </div>
 
       <aside className="space-y-4">
-        <div className="card p-4">
+        <div className="glass p-4">
           <h2 className="text-sm font-semibold text-ink">Related concepts</h2>
           {data.related_concepts.length === 0 ? (
             <p className="mt-2 text-sm text-ink-faint">No strongly related concepts found.</p>
@@ -99,7 +99,7 @@ export function ConceptDetailPage() {
           )}
         </div>
 
-        <div className="card p-4 text-xs text-ink-faint">
+        <div className="glass p-4 text-xs text-ink-faint">
           <h2 className="text-sm font-semibold text-ink">Provenance</h2>
           <dl className="mt-2 space-y-1">
             <div className="flex justify-between">

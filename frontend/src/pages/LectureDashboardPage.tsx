@@ -22,14 +22,10 @@ export function LectureDashboardPage() {
   const lecture = useAsync(() => api.getLecture(id), [id]);
   const isAnalyzed = lecture.data?.status === "analyzed";
 
-  const concepts = useAsync(
-    () => (isAnalyzed ? api.getConcepts(id) : Promise.resolve(null)),
-    [id, isAnalyzed],
-  );
-  const clusters = useAsync(
-    () => (isAnalyzed ? api.getClusters(id) : Promise.resolve(null)),
-    [id, isAnalyzed],
-  );
+  // Always fetch: the endpoints return an empty list for a not-yet-analyzed
+  // lecture, and a stable dependency list avoids a load flicker.
+  const concepts = useAsync(() => api.getConcepts(id), [id]);
+  const clusters = useAsync(() => api.getClusters(id), [id]);
 
   const [filters, setFilters] = useState<ConceptFilters>(() => {
     const cluster = searchParams.get("cluster");
@@ -130,7 +126,7 @@ export function LectureDashboardPage() {
         />
       )}
       {l.status === "processing" && (
-        <div className="card p-8 text-center">
+        <div className="glass p-8 text-center">
           <InlineSpinner label="Analysis in progress, refresh in a moment." />
         </div>
       )}
@@ -176,7 +172,7 @@ export function LectureDashboardPage() {
             />
           </div>
 
-          <div className="card space-y-4 p-4">
+          <div className="glass space-y-4 p-4">
             <Filters
               filters={filters}
               clusters={(clusters.data?.clusters ?? []).map((c) => ({ id: c.id, label: c.label }))}

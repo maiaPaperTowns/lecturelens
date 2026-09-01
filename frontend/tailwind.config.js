@@ -4,12 +4,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        display: ['"Fraunces"', "ui-serif", "Georgia", "serif"],
+        display: ['"Space Grotesk"', "ui-sans-serif", "system-ui", "sans-serif"],
         sans: ['"Inter"', "ui-sans-serif", "system-ui", "sans-serif"],
         mono: ['"JetBrains Mono"', "ui-monospace", "SFMono-Regular", "monospace"],
       },
       colors: {
-        // warm paper + oxblood + amber, adapted from the Senti reference
         paper: "#f4efe7",
         card: "#fbf8f2",
         line: "#e4dccd",
@@ -24,13 +23,14 @@ export default {
           soft: "#8a4a58",
         },
         rose: "#b07c83",
-        ember: {
-          DEFAULT: "#e4913f",
-          soft: "#f7e6d2",
-          ink: "#7a3d10",
+        // accent: a deep berry / plum, replaces the old amber
+        accent: {
+          DEFAULT: "#7c2e49",
+          soft: "#efe3e8",
+          ink: "#5a2231",
         },
         easy: "#3f7d5a",
-        medium: "#c9862f",
+        medium: "#b98038",
         hard: "#b0433f",
       },
       letterSpacing: {
@@ -38,6 +38,12 @@ export default {
       },
       boxShadow: {
         card: "0 1px 2px rgba(43, 28, 30, 0.04), 0 12px 32px rgba(43, 28, 30, 0.06)",
+        glass: "inset 0 1px 0 rgba(255,255,255,0.55), 0 8px 30px rgba(43,28,30,0.10)",
+        "glass-dark":
+          "inset 0 1px 0 rgba(255,255,255,0.18), 0 10px 30px rgba(43,28,30,0.28)",
+      },
+      backdropBlur: {
+        xs: "2px",
       },
       backgroundImage: {
         "wine-fade":

@@ -12,11 +12,13 @@ const NAV = [
 export function Layout() {
   return (
     <div className="flex min-h-screen flex-col">
-      <header className="sticky top-0 z-20 border-b border-line bg-paper/85 backdrop-blur">
+      <header className="glass-nav sticky top-0 z-20">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
           <NavLink to="/" className="flex items-baseline gap-2">
-            <span className="font-display text-xl font-semibold text-ink">LectureLens</span>
-            <span className="hidden h-1.5 w-1.5 rounded-full bg-ember sm:block" />
+            <span className="font-display text-xl font-semibold tracking-tight text-ink">
+              LectureLens
+            </span>
+            <span className="hidden h-1.5 w-1.5 rounded-full bg-wine sm:block" />
           </NavLink>
           <nav className="flex items-center gap-1">
             {NAV.map((item) => (
@@ -45,7 +47,7 @@ export function Layout() {
         <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-2 px-5 py-6 text-[0.7rem] uppercase tracking-label text-ink-faint">
           <span>LectureLens</span>
           <span>Offline PyTorch + scikit-learn study-map pipeline</span>
-          {IS_DEMO && <span className="text-ember-ink">Live demo, read only</span>}
+          {IS_DEMO && <span className="text-accent-ink">Live demo, read only</span>}
         </div>
       </footer>
     </div>

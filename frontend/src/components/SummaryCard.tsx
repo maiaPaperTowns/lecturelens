@@ -12,12 +12,12 @@ export function SummaryCard({
   icon?: ReactNode;
 }) {
   return (
-    <div className="card p-4">
+    <div className="glass p-4">
       <div className="flex items-start justify-between">
-        <p className="text-xs font-medium uppercase tracking-wide text-ink-faint">{label}</p>
+        <p className="eyebrow">{label}</p>
         {icon && <span className="text-wine">{icon}</span>}
       </div>
-      <p className="mt-2 text-2xl font-semibold text-ink">{value}</p>
+      <p className="mt-2 font-display text-2xl font-medium text-ink">{value}</p>
       {hint && <p className="mt-1 text-xs text-ink-faint">{hint}</p>}
     </div>
   );

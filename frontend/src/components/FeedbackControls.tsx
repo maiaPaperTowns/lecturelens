@@ -50,7 +50,7 @@ export function FeedbackControls({
   }
 
   return (
-    <div className="card space-y-4 p-4" data-testid="feedback-controls">
+    <div className="glass space-y-4 p-4" data-testid="feedback-controls">
       <div>
         <p className="text-sm font-medium text-ink">Is the “{concept.concept_type}” label correct?</p>
         <div className="mt-2 flex gap-2">

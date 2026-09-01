@@ -16,7 +16,7 @@ export function ClusterCard({
 }) {
   const color = CLUSTER_PALETTE[index % CLUSTER_PALETTE.length];
   return (
-    <div className="card flex flex-col gap-3 p-4">
+    <div className="glass flex flex-col gap-3 p-4">
       <div className="flex items-start justify-between gap-2">
         <div className="flex items-center gap-2">
           <span className="h-3 w-3 rounded-full" style={{ backgroundColor: color }} />
@@ -30,7 +30,7 @@ export function ClusterCard({
       {cluster.keywords.length > 0 && (
         <div className="flex flex-wrap gap-1">
           {cluster.keywords.slice(0, 5).map((kw) => (
-            <span key={kw} className="badge bg-ember-soft text-wine">
+            <span key={kw} className="badge bg-accent-soft text-wine">
               {kw}
             </span>
           ))}

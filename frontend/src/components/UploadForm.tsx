@@ -97,7 +97,7 @@ export function UploadForm() {
 
       <div
         className={`rounded-xl border-2 border-dashed p-6 text-center transition ${
-          dragging ? "border-wine bg-ember-soft" : "border-line bg-paper"
+          dragging ? "border-wine bg-accent-soft" : "border-line bg-paper"
         }`}
         onDragOver={(e) => {
           e.preventDefault();

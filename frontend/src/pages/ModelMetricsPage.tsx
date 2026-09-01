@@ -96,7 +96,7 @@ export function ModelMetricsPage() {
       </div>
 
       <div className="grid gap-4 lg:grid-cols-2">
-        <div className="card p-4">
+        <div className="glass p-4">
           <h2 className="mb-3 text-sm font-semibold text-ink">Feedback by predicted type</h2>
           {feedbackByType.length === 0 ? (
             <p className="text-sm text-ink-faint">No feedback collected yet.</p>
@@ -119,7 +119,7 @@ export function ModelMetricsPage() {
           )}
         </div>
 
-        <div className="card p-4">
+        <div className="glass p-4">
           <h2 className="mb-3 text-sm font-semibold text-ink">Recent corrections</h2>
           {data.feedback.recent.length === 0 ? (
             <p className="text-sm text-ink-faint">Nothing yet, submit feedback from any concept page.</p>

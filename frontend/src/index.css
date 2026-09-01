@@ -8,13 +8,18 @@
   }
   body {
     @apply bg-paper font-sans text-ink;
-    font-feature-settings: "ss01", "cv05";
+    font-feature-settings: "cv05", "cv11", "ss01";
+    background-image:
+      radial-gradient(55rem 38rem at 6% -12%, rgba(176, 124, 131, 0.38), transparent 62%),
+      radial-gradient(48rem 36rem at 104% -4%, rgba(90, 34, 49, 0.26), transparent 58%),
+      radial-gradient(42rem 30rem at 50% 118%, rgba(176, 124, 131, 0.2), transparent 62%);
+    background-attachment: fixed;
   }
   h1,
   h2,
   h3 {
     @apply font-display;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.02em;
   }
 }
 
@@ -22,41 +27,63 @@
   .eyebrow {
     @apply text-[0.68rem] font-medium uppercase tracking-label text-ink-faint;
   }
+
   .card {
-    @apply rounded-lg border border-line bg-card shadow-card;
+    @apply rounded-xl border border-line bg-card shadow-card;
   }
-  .hairline {
-    @apply border-line;
+
+  /* iOS-style frosted glass surfaces */
+  .glass {
+    @apply rounded-xl border border-white/70 bg-white/60 shadow-glass backdrop-blur-xl
+      backdrop-saturate-150;
   }
+  .glass-dark {
+    @apply rounded-xl border border-white/15 bg-ink/40 text-paper shadow-glass-dark
+      backdrop-blur-xl backdrop-saturate-150;
+  }
+  .glass-nav {
+    @apply border-b border-white/40 bg-paper/60 backdrop-blur-xl backdrop-saturate-150;
+  }
+
   .btn {
-    @apply inline-flex items-center justify-center gap-2 text-xs font-medium uppercase tracking-label
-      transition focus:outline-none focus:ring-2 focus:ring-ember/40 disabled:cursor-not-allowed
-      disabled:opacity-50;
+    @apply inline-flex select-none items-center justify-center gap-2 text-xs font-medium uppercase
+      tracking-label transition duration-200 focus:outline-none focus:ring-2 focus:ring-wine/25
+      disabled:cursor-not-allowed disabled:opacity-50;
   }
+  /* primary: frosted dark glass, sits on light surfaces */
   .btn-primary {
-    @apply btn rounded-full bg-ember px-6 py-3 text-ink hover:bg-[#d9842f];
+    @apply btn rounded-full border border-white/10 bg-ink/90 px-6 py-3 text-paper shadow-glass-dark
+      backdrop-blur-md hover:bg-ink;
+  }
+  /* light frosted glass, for dark backgrounds and secondary actions */
+  .btn-glass {
+    @apply btn rounded-full border border-white/60 bg-white/60 px-5 py-2.5 text-ink shadow-glass
+      backdrop-blur-md hover:bg-white/80;
   }
   .btn-ghost {
-    @apply btn rounded-full border border-ink/20 px-5 py-2.5 text-ink-soft hover:border-ink/40
+    @apply btn rounded-full border border-ink/10 px-5 py-2.5 text-ink-soft hover:border-ink/30
       hover:text-ink;
   }
-  .btn-dark {
-    @apply btn rounded-full bg-wine px-6 py-3 text-paper hover:bg-wine-deep;
+  .btn-on-dark {
+    @apply btn rounded-full border border-white/20 bg-white/10 px-6 py-3 text-paper
+      backdrop-blur-md hover:bg-white/20;
   }
+
   .input {
-    @apply w-full rounded-md border border-line bg-card px-3 py-2 text-sm text-ink
-      focus:border-wine focus:outline-none focus:ring-2 focus:ring-wine/20;
+    @apply w-full rounded-lg border border-line bg-white/60 px-3 py-2 text-sm text-ink
+      backdrop-blur-sm focus:border-wine focus:outline-none focus:ring-2 focus:ring-wine/20;
   }
   .badge {
     @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-[0.7rem] font-medium;
   }
+
   .bracket {
     @apply relative;
   }
   .bracket::before,
   .bracket::after {
     content: "";
-    @apply pointer-events-none absolute h-4 w-4 border-ember;
+    @apply pointer-events-none absolute h-3.5 w-3.5 border-white/50;
   }
   .bracket::before {
     @apply left-0 top-0 border-l border-t;

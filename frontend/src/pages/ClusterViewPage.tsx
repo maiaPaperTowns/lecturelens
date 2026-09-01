@@ -41,7 +41,7 @@ export function ClusterViewPage() {
 
       {!loading && !error && data && data.total > 0 && (
         <>
-          <div className="card p-4">
+          <div className="glass p-4">
             <h2 className="mb-2 text-sm font-semibold text-ink">Concept embedding map</h2>
             <p className="mb-3 text-xs text-ink-faint">
               2-D projection (t-SNE / PCA) of concept embeddings, coloured by cluster.

@@ -30,7 +30,7 @@ export function EmptyState({
 }) {
   return (
     <div className="card flex flex-col items-center gap-3 p-10 text-center" data-testid="empty-state">
-      <div className="flex h-12 w-12 items-center justify-center rounded-full bg-ember-soft text-wine">
+      <div className="flex h-12 w-12 items-center justify-center rounded-full bg-accent-soft text-wine">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
           <path d="M4 5h16M4 12h16M4 19h10" strokeLinecap="round" />
         </svg>

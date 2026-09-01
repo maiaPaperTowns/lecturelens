@@ -15,7 +15,7 @@ export function DifficultyBadge({ label }: { label: DifficultyLabel | null }) {
 export function ConceptTypeBadge({ type }: { type: ConceptType | null }) {
   if (!type) return <span className="badge bg-line/60 text-ink-faint">, </span>;
   return (
-    <span className="badge bg-ember-soft text-wine ring-1 ring-line">
+    <span className="badge bg-accent-soft text-wine ring-1 ring-line">
       {CONCEPT_TYPE_LABELS[type]}
     </span>
   );

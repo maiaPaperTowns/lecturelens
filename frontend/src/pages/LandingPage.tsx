@@ -50,25 +50,28 @@ export function LandingPage() {
               from. Powered by an offline PyTorch and scikit-learn pipeline, not an LLM API.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-3">
-              <Link to="/upload" className="btn-primary">
+              <Link
+                to="/upload"
+                className="btn rounded-full bg-paper px-6 py-3 text-wine shadow-glass hover:bg-white"
+              >
                 Upload a lecture
               </Link>
-              <Link to="/lectures" className="btn border border-paper/30 rounded-full px-5 py-2.5 text-paper hover:border-paper/60">
+              <Link to="/lectures" className="btn-on-dark">
                 Browse the demo
               </Link>
             </div>
           </div>
 
-          {/* bracket-framed stat cards */}
-          <div className="relative mx-auto mt-14 grid max-w-3xl gap-4 sm:grid-cols-3">
+          {/* frosted-glass stat cards */}
+          <div className="relative mx-auto mt-14 grid max-w-3xl gap-3 sm:grid-cols-3">
             {[
               ["120", "concepts detected across 3 demo lectures"],
               ["16", "study clusters, silhouette 0.58 to 0.63"],
               ["0.88", "macro F1, PyTorch vs sklearn"],
             ].map(([n, label]) => (
-              <div key={label} className="bracket p-4 text-left">
-                <p className="font-display text-3xl text-paper">{n}</p>
-                <p className="mt-1 text-xs leading-snug text-paper/70">{label}</p>
+              <div key={label} className="glass-dark bracket p-4 text-left">
+                <p className="font-display text-3xl font-medium text-paper">{n}</p>
+                <p className="mt-1 text-xs leading-snug text-paper/75">{label}</p>
               </div>
             ))}
           </div>
@@ -81,7 +84,7 @@ export function LandingPage() {
         <div className="mt-6 grid gap-px overflow-hidden rounded-lg border border-line bg-line sm:grid-cols-2 lg:grid-cols-4">
           {STEPS.map(([n, title, body]) => (
             <div key={n} className="bg-card p-5">
-              <span className="font-mono text-xs text-ember-ink">{n}</span>
+              <span className="font-mono text-xs text-accent-ink">{n}</span>
               <h3 className="mt-2 font-display text-lg text-ink">{title}</h3>
               <p className="mt-1 text-sm text-ink-soft">{body}</p>
             </div>
@@ -94,7 +97,7 @@ export function LandingPage() {
         <p className="eyebrow">What it does</p>
         <div className="mt-6 grid gap-4 sm:grid-cols-3">
           {FEATURES.map(([title, body]) => (
-            <div key={title} className="card p-6">
+            <div key={title} className="glass p-6">
               <h3 className="font-display text-lg text-ink">{title}</h3>
               <p className="mt-2 text-sm text-ink-soft">{body}</p>
             </div>
