@@ -23,6 +23,7 @@ known-first-party = ["app", "scripts"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["."]  # make the `app` package importable when invoked as `pytest`
 addopts = "-q --disable-warnings"
 filterwarnings = ["ignore::DeprecationWarning"]
 
