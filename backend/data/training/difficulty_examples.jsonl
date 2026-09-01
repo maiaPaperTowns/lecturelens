@@ -1,0 +1,600 @@
+{"name": "Cache-Oblivious Matrix Transposition", "text": "cache-oblivious matrix transposition combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Wait-Free Consensus Hierarchies", "text": "wait-free consensus hierarchies requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Wait-Free Consensus Hierarchies", "text": "wait-free consensus hierarchies combines several non-obvious results; the proof uses amortisation and probabilistic bounds. This idea comes up repeatedly later in the course.", "label": "medium"}
+{"name": "Lock-Free Concurrent Hashing", "text": "lock-free concurrent hashing combines several non-obvious results; the proof uses amortisation and probabilistic bounds. It is worth pausing to make sure this is clear.", "label": "hard"}
+{"name": "Dijkstra'S Algorithm", "text": "Dijkstra's algorithm has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "List Index", "text": "You met a list index in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Linked List", "text": "a linked list requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Whitespace Character", "text": "a whitespace character needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Call Stack", "text": "Understanding the call stack takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Return Keyword", "text": "the return keyword is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Integer", "text": "You met an integer in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Function Call", "text": "You met a function call in week one; there is nothing subtle about it. It is worth pausing to make sure this is clear.", "label": "easy"}
+{"name": "Virtual Address", "text": "a virtual address has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Return Keyword", "text": "the return keyword is straightforward: it simply holds or names a single value you can read. The notation follows the textbook.", "label": "medium"}
+{"name": "Hash Table", "text": "hash table requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Hash Table", "text": "Most students find hash table demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Print Statement", "text": "You met the print statement in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Persistent Datstructure Fat-Node Encoding", "text": "Most students find persistent data structure fat-node encoding demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Linked List", "text": "a linked list requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Integer", "text": "You met an integer in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Dynamic Programming", "text": "dynamic programming builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Boolean", "text": "a boolean needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Binary Search", "text": "binary search combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Master Theorem", "text": "Understanding the master theorem takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "If Statement", "text": "an if statement is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Lock-Free Concurrent Hashing", "text": "lock-free concurrent hashing combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Cache-Oblivious Matrix Transposition", "text": "cache-oblivious matrix transposition requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Array", "text": "an array is straightforward: it simply holds or names a single value you can read. It is worth pausing to make sure this is clear.", "label": "medium"}
+{"name": "Whitespace Character", "text": "a whitespace character is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Wait-Free Consensus Hierarchies", "text": "wait-free consensus hierarchies requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Persistent Datstructure Fat-Node Encoding", "text": "persistent data structure fat-node encoding requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Kkt Optimality Conditions", "text": "Most students find the KKT optimality conditions demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Lock-Free Concurrent Hashing", "text": "Most students find lock-free concurrent hashing demanding: the derivation is long and every step matters. We return to this point in the next lecture.", "label": "hard"}
+{"name": "Variable", "text": "You met a variable in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "List Index", "text": "a list index needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Linked List", "text": "a linked list builds on earlier ideas; you must trace a few steps and hold one invariant in mind. It is worth pausing to make sure this is clear.", "label": "medium"}
+{"name": "Cache-Oblivious Matrix Transposition", "text": "cache-oblivious matrix transposition combines several non-obvious results; the proof uses amortisation and probabilistic bounds. This idea comes up repeatedly later in the course.", "label": "hard"}
+{"name": "Semaphore", "text": "Understanding a semaphore takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Backpropagation", "text": "backpropagation builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Comment", "text": "a comment is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Comment", "text": "a comment is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Wait-Free Consensus Hierarchies", "text": "wait-free consensus hierarchies combines several non-obvious results; the proof uses amortisation and probabilistic bounds. The notation follows the textbook.", "label": "hard"}
+{"name": "Cap Theorem", "text": "Understanding the CAP theorem takes a diagram and a careful read, but no heavy proof. We return to this point in the next lecture.", "label": "medium"}
+{"name": "Red-Black Tree", "text": "Understanding a red-black tree takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Context Switch", "text": "a context switch builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Gradient Descent", "text": "gradient descent builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Linked List", "text": "a linked list combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Array", "text": "You met an array in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Lock-Free Concurrent Hashing", "text": "lock-free concurrent hashing combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Suffix Array", "text": "a suffix array builds on earlier ideas; you must trace a few steps and hold one invariant in mind. The notation follows the textbook.", "label": "medium"}
+{"name": "Expectation-Maximisation Derivation", "text": "the expectation-maximisation derivation combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Cache-Oblivious Matrix Transposition", "text": "Most students find cache-oblivious matrix transposition demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "L2 Regularisation", "text": "Understanding L2 regularisation takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Quicksort", "text": "Most students find quicksort demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Context Switch", "text": "a context switch builds on earlier ideas; you must trace a few steps and hold one invariant in mind. Keep the running time in mind as we go.", "label": "medium"}
+{"name": "Semaphore", "text": "Understanding a semaphore takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Quicksort", "text": "quicksort combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Variable", "text": "a variable needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Call Stack", "text": "the call stack combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Whitespace Character", "text": "You met a whitespace character in week one; there is nothing subtle about it.", "label": "medium"}
+{"name": "Lock-Free Concurrent Hashing", "text": "lock-free concurrent hashing combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Backpropagation", "text": "backpropagation has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Whitespace Character", "text": "You met a whitespace character in week one; there is nothing subtle about it. Keep the running time in mind as we go.", "label": "easy"}
+{"name": "String", "text": "a string is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Binary Search", "text": "binary search has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Backpropagation", "text": "backpropagation builds on earlier ideas; you must trace a few steps and hold one invariant in mind. This idea comes up repeatedly later in the course.", "label": "medium"}
+{"name": "Red-Black Tree", "text": "a red-black tree has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Dynamic Programming", "text": "dynamic programming requires case analysis, a potential function, and comfort with asymptotic reasoning. We return to this point in the next lecture.", "label": "hard"}
+{"name": "Array", "text": "You met an array in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Binary Search", "text": "binary search requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Amortised Analysis Of Fibonacci Heap", "text": "Most students find the amortised analysis of a Fibonacci heap demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Binary Search", "text": "Most students find binary search demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Integer", "text": "an integer is straightforward: it simply holds or names a single value you can read.", "label": "medium"}
+{"name": "Gradient Descent", "text": "gradient descent builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Binary Search", "text": "binary search has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Call Stack", "text": "Most students find the call stack demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Page Table", "text": "Most students find the page table demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Quicksort", "text": "quicksort requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Backpropagation", "text": "Understanding backpropagation takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Virtual Address", "text": "a virtual address has a couple of edge cases that trip people up on the first attempt. The notation follows the textbook.", "label": "medium"}
+{"name": "Amortised Analysis Of Fibonacci Heap", "text": "the amortised analysis of a Fibonacci heap requires case analysis, a potential function, and comfort with asymptotic reasoning. It is worth pausing to make sure this is clear.", "label": "hard"}
+{"name": "Dijkstra'S Algorithm", "text": "Understanding Dijkstra's algorithm takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Amortised Analysis Of Fibonacci Heap", "text": "the amortised analysis of a Fibonacci heap combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Hash Table", "text": "hash table combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Linked List", "text": "a linked list combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Cache-Oblivious Matrix Transposition", "text": "cache-oblivious matrix transposition requires case analysis, a potential function, and comfort with asymptotic reasoning. Keep the running time in mind as we go.", "label": "hard"}
+{"name": "Call Stack", "text": "the call stack combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Amortised Analysis Of Fibonacci Heap", "text": "the amortised analysis of a Fibonacci heap requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Boolean", "text": "You met a boolean in week one; there is nothing subtle about it. It is worth pausing to make sure this is clear.", "label": "easy"}
+{"name": "Print Statement", "text": "the print statement is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Reference Counting", "text": "Understanding reference counting takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Hash Table", "text": "Understanding hash table takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Whitespace Character", "text": "a whitespace character needs no maths \u2014 just remember the syntax and what it stands for.", "label": "medium"}
+{"name": "Print Statement", "text": "You met the print statement in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Quicksort", "text": "Understanding quicksort takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Polynomial Hierarchy", "text": "the polynomial hierarchy combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Reference Counting", "text": "reference counting builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "String", "text": "a string is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Return Keyword", "text": "the return keyword needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Integer", "text": "You met an integer in week one; there is nothing subtle about it. Keep the running time in mind as we go.", "label": "easy"}
+{"name": "Dynamic Programming", "text": "dynamic programming combines several non-obvious results; the proof uses amortisation and probabilistic bounds. The notation follows the textbook.", "label": "hard"}
+{"name": "Function Call", "text": "You met a function call in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Red-Black Tree", "text": "Understanding a red-black tree takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Polynomial Hierarchy", "text": "Most students find the polynomial hierarchy demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Array", "text": "an array is straightforward: it simply holds or names a single value you can read. We return to this point in the next lecture.", "label": "easy"}
+{"name": "Virtual Address", "text": "Understanding a virtual address takes a diagram and a careful read, but no heavy proof. We return to this point in the next lecture.", "label": "medium"}
+{"name": "If Statement", "text": "You met an if statement in week one; there is nothing subtle about it.", "label": "medium"}
+{"name": "Call Stack", "text": "Most students find the call stack demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "String", "text": "a string needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Pcp Theorem", "text": "the PCP theorem requires case analysis, a potential function, and comfort with asymptotic reasoning. This idea comes up repeatedly later in the course.", "label": "hard"}
+{"name": "List Index", "text": "a list index is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "L2 Regularisation", "text": "Understanding L2 regularisation takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Virtual Address", "text": "Understanding a virtual address takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Function Call", "text": "a function call is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Tcp Congestion Control", "text": "TCP congestion control builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "String", "text": "a string needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Cap Theorem", "text": "the CAP theorem builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Polynomial Hierarchy", "text": "the polynomial hierarchy combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Priority Queue", "text": "a priority queue has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Integer", "text": "an integer is straightforward: it simply holds or names a single value you can read.", "label": "medium"}
+{"name": "Cap Theorem", "text": "Understanding the CAP theorem takes a diagram and a careful read, but no heavy proof. Keep the running time in mind as we go.", "label": "medium"}
+{"name": "Linked List", "text": "a linked list combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Wait-Free Consensus Hierarchies", "text": "wait-free consensus hierarchies combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "For Loop", "text": "You met a for loop in week one; there is nothing subtle about it. This idea comes up repeatedly later in the course.", "label": "medium"}
+{"name": "Dijkstra'S Algorithm", "text": "Understanding Dijkstra's algorithm takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Merge Step", "text": "a merge step builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Whitespace Character", "text": "a whitespace character is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Dynamic Programming", "text": "dynamic programming requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "For Loop", "text": "a for loop needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Quicksort", "text": "Most students find quicksort demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Print Statement", "text": "the print statement is straightforward: it simply holds or names a single value you can read. The notation follows the textbook.", "label": "easy"}
+{"name": "L2 Regularisation", "text": "Understanding L2 regularisation takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Comment", "text": "You met a comment in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Lock-Free Concurrent Hashing", "text": "lock-free concurrent hashing combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Producer-Consumer Problem", "text": "the producer-consumer problem has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Priority Queue", "text": "Understanding a priority queue takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Return Keyword", "text": "You met the return keyword in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Cache-Oblivious Matrix Transposition", "text": "cache-oblivious matrix transposition combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Master Theorem", "text": "the master theorem builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Virtual Address", "text": "a virtual address has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Expectation-Maximisation Derivation", "text": "the expectation-maximisation derivation combines several non-obvious results; the proof uses amortisation and probabilistic bounds. Keep the running time in mind as we go.", "label": "hard"}
+{"name": "Quicksort", "text": "quicksort builds on earlier ideas; you must trace a few steps and hold one invariant in mind. We return to this point in the next lecture.", "label": "medium"}
+{"name": "Dynamic Programming", "text": "Most students find dynamic programming demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "If Statement", "text": "an if statement is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Tcp Congestion Control", "text": "Understanding TCP congestion control takes a diagram and a careful read, but no heavy proof.", "label": "easy"}
+{"name": "Call Stack", "text": "Most students find the call stack demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Hash Table", "text": "hash table requires case analysis, a potential function, and comfort with asymptotic reasoning. We return to this point in the next lecture.", "label": "hard"}
+{"name": "Return Keyword", "text": "You met the return keyword in week one; there is nothing subtle about it. Keep the running time in mind as we go.", "label": "easy"}
+{"name": "Amortised Analysis Of Fibonacci Heap", "text": "the amortised analysis of a Fibonacci heap requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Whitespace Character", "text": "a whitespace character needs no maths \u2014 just remember the syntax and what it stands for. It is worth pausing to make sure this is clear.", "label": "easy"}
+{"name": "Spin Lock", "text": "Understanding a spin lock takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Cap Theorem", "text": "the CAP theorem builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Function Call", "text": "a function call is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Whitespace Character", "text": "a whitespace character needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Spin Lock", "text": "a spin lock has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Pcp Theorem", "text": "the PCP theorem requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Pcp Theorem", "text": "the PCP theorem requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Wait-Free Consensus Hierarchies", "text": "Most students find wait-free consensus hierarchies demanding: the derivation is long and every step matters. The notation follows the textbook.", "label": "hard"}
+{"name": "Paxos Leader Election", "text": "Most students find Paxos leader election demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Call Stack", "text": "Most students find the call stack demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Linked List", "text": "Most students find a linked list demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Cache-Oblivious Matrix Transposition", "text": "cache-oblivious matrix transposition combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Hash Table", "text": "hash table requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Quicksort", "text": "Most students find quicksort demanding: the derivation is long and every step matters. Keep the running time in mind as we go.", "label": "hard"}
+{"name": "Amortised Analysis Of Fibonacci Heap", "text": "Most students find the amortised analysis of a Fibonacci heap demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Amortised Analysis Of Fibonacci Heap", "text": "the amortised analysis of a Fibonacci heap requires case analysis, a potential function, and comfort with asymptotic reasoning. This idea comes up repeatedly later in the course.", "label": "medium"}
+{"name": "Cap Theorem", "text": "Understanding the CAP theorem takes a diagram and a careful read, but no heavy proof. Keep the running time in mind as we go.", "label": "medium"}
+{"name": "Master Theorem", "text": "the master theorem builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Suffix Array", "text": "Understanding a suffix array takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Print Statement", "text": "You met the print statement in week one; there is nothing subtle about it.", "label": "medium"}
+{"name": "Binary Search", "text": "binary search has a couple of edge cases that trip people up on the first attempt. This idea comes up repeatedly later in the course.", "label": "medium"}
+{"name": "Binary Search", "text": "Understanding binary search takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Linked List", "text": "Understanding a linked list takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Wait-Free Consensus Hierarchies", "text": "wait-free consensus hierarchies combines several non-obvious results; the proof uses amortisation and probabilistic bounds. It is worth pausing to make sure this is clear.", "label": "hard"}
+{"name": "B-Tree", "text": "a B-tree builds on earlier ideas; you must trace a few steps and hold one invariant in mind. It is worth pausing to make sure this is clear.", "label": "medium"}
+{"name": "Cache-Oblivious Matrix Transposition", "text": "cache-oblivious matrix transposition combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Spin Lock", "text": "a spin lock builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Semaphore", "text": "a semaphore combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Semaphore", "text": "a semaphore has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Function Call", "text": "a function call is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Virtual Address", "text": "a virtual address builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Cap Theorem", "text": "the CAP theorem has a couple of edge cases that trip people up on the first attempt. The notation follows the textbook.", "label": "medium"}
+{"name": "Function Call", "text": "a function call needs no maths \u2014 just remember the syntax and what it stands for. The notation follows the textbook.", "label": "easy"}
+{"name": "Dynamic Programming", "text": "Most students find dynamic programming demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Paxos Leader Election", "text": "Paxos leader election combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Semaphore", "text": "Most students find a semaphore demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Page Table", "text": "the page table combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "String", "text": "You met a string in week one; there is nothing subtle about it. This idea comes up repeatedly later in the course.", "label": "easy"}
+{"name": "Boolean", "text": "You met a boolean in week one; there is nothing subtle about it. We return to this point in the next lecture.", "label": "easy"}
+{"name": "String", "text": "You met a string in week one; there is nothing subtle about it.", "label": "medium"}
+{"name": "Expectation-Maximisation Derivation", "text": "the expectation-maximisation derivation combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Semaphore", "text": "Most students find a semaphore demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Amortised Analysis Of Fibonacci Heap", "text": "the amortised analysis of a Fibonacci heap combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "If Statement", "text": "an if statement needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Variable", "text": "a variable needs no maths \u2014 just remember the syntax and what it stands for.", "label": "medium"}
+{"name": "Print Statement", "text": "You met the print statement in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Boolean", "text": "a boolean needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Priority Queue", "text": "a priority queue builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Paxos Leader Election", "text": "Paxos leader election requires case analysis, a potential function, and comfort with asymptotic reasoning. It is worth pausing to make sure this is clear.", "label": "hard"}
+{"name": "Semaphore", "text": "a semaphore has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Integer", "text": "You met an integer in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Lock-Free Concurrent Hashing", "text": "lock-free concurrent hashing combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Producer-Consumer Problem", "text": "the producer-consumer problem has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Comment", "text": "a comment is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Quicksort", "text": "quicksort combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Return Keyword", "text": "You met the return keyword in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Lock-Free Concurrent Hashing", "text": "Most students find lock-free concurrent hashing demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Quicksort", "text": "quicksort has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "If Statement", "text": "an if statement is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "If Statement", "text": "an if statement is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Suffix Array", "text": "Understanding a suffix array takes a diagram and a careful read, but no heavy proof. We return to this point in the next lecture.", "label": "medium"}
+{"name": "Variable", "text": "a variable is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Semaphore", "text": "Understanding a semaphore takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Function Call", "text": "a function call is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Hash Table", "text": "hash table builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Hash Table", "text": "Most students find hash table demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Whitespace Character", "text": "a whitespace character needs no maths \u2014 just remember the syntax and what it stands for. The notation follows the textbook.", "label": "easy"}
+{"name": "Dynamic Programming", "text": "dynamic programming has a couple of edge cases that trip people up on the first attempt. The notation follows the textbook.", "label": "medium"}
+{"name": "Amortised Analysis Of Fibonacci Heap", "text": "the amortised analysis of a Fibonacci heap combines several non-obvious results; the proof uses amortisation and probabilistic bounds. Keep the running time in mind as we go.", "label": "hard"}
+{"name": "Variable", "text": "a variable needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Integer", "text": "an integer needs no maths \u2014 just remember the syntax and what it stands for. Keep the running time in mind as we go.", "label": "easy"}
+{"name": "Virtual Address", "text": "a virtual address builds on earlier ideas; you must trace a few steps and hold one invariant in mind. It is worth pausing to make sure this is clear.", "label": "medium"}
+{"name": "Binary Search", "text": "binary search builds on earlier ideas; you must trace a few steps and hold one invariant in mind. Keep the running time in mind as we go.", "label": "medium"}
+{"name": "Comment", "text": "a comment is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Bias-Variance Tradeoff", "text": "the bias-variance tradeoff builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "If Statement", "text": "an if statement is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Print Statement", "text": "the print statement is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Hash Table", "text": "hash table requires case analysis, a potential function, and comfort with asymptotic reasoning. Keep the running time in mind as we go.", "label": "medium"}
+{"name": "Array", "text": "You met an array in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Kkt Optimality Conditions", "text": "the KKT optimality conditions combines several non-obvious results; the proof uses amortisation and probabilistic bounds. It is worth pausing to make sure this is clear.", "label": "hard"}
+{"name": "Priority Queue", "text": "a priority queue has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Tcp Congestion Control", "text": "TCP congestion control has a couple of edge cases that trip people up on the first attempt.", "label": "hard"}
+{"name": "Context Switch", "text": "a context switch builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Cache-Oblivious Matrix Transposition", "text": "Most students find cache-oblivious matrix transposition demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Spin Lock", "text": "a spin lock has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Bias-Variance Tradeoff", "text": "the bias-variance tradeoff builds on earlier ideas; you must trace a few steps and hold one invariant in mind. This idea comes up repeatedly later in the course.", "label": "medium"}
+{"name": "Quicksort", "text": "quicksort builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Array", "text": "an array is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Hash Table", "text": "hash table combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Hash Table", "text": "hash table requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "List Index", "text": "You met a list index in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Return Keyword", "text": "the return keyword is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Hash Table", "text": "Most students find hash table demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Function Call", "text": "You met a function call in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Spin Lock", "text": "a spin lock has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Cache-Oblivious Matrix Transposition", "text": "cache-oblivious matrix transposition combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Lock-Free Concurrent Hashing", "text": "lock-free concurrent hashing combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "List Index", "text": "You met a list index in week one; there is nothing subtle about it. It is worth pausing to make sure this is clear.", "label": "easy"}
+{"name": "Semaphore", "text": "a semaphore requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Cap Theorem", "text": "Understanding the CAP theorem takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Page Table", "text": "the page table builds on earlier ideas; you must trace a few steps and hold one invariant in mind. Keep the running time in mind as we go.", "label": "medium"}
+{"name": "Paxos Leader Election", "text": "Paxos leader election combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "medium"}
+{"name": "Bias-Variance Tradeoff", "text": "the bias-variance tradeoff builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Pcp Theorem", "text": "the PCP theorem combines several non-obvious results; the proof uses amortisation and probabilistic bounds. Keep the running time in mind as we go.", "label": "hard"}
+{"name": "Backpropagation", "text": "backpropagation has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Linked List", "text": "a linked list requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Return Keyword", "text": "You met the return keyword in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Cache-Oblivious Matrix Transposition", "text": "cache-oblivious matrix transposition requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Call Stack", "text": "the call stack combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Variable", "text": "a variable needs no maths \u2014 just remember the syntax and what it stands for. Keep the running time in mind as we go.", "label": "easy"}
+{"name": "Semaphore", "text": "a semaphore has a couple of edge cases that trip people up on the first attempt. We return to this point in the next lecture.", "label": "medium"}
+{"name": "Linked List", "text": "Understanding a linked list takes a diagram and a careful read, but no heavy proof. Keep the running time in mind as we go.", "label": "medium"}
+{"name": "Dynamic Programming", "text": "dynamic programming builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Hash Table", "text": "hash table combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "medium"}
+{"name": "Semaphore", "text": "a semaphore combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Semaphore", "text": "Understanding a semaphore takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Producer-Consumer Problem", "text": "the producer-consumer problem builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Return Keyword", "text": "the return keyword is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Dijkstra'S Algorithm", "text": "Dijkstra's algorithm has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Kkt Optimality Conditions", "text": "the KKT optimality conditions requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Integer", "text": "an integer needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Boolean", "text": "a boolean is straightforward: it simply holds or names a single value you can read. Keep the running time in mind as we go.", "label": "easy"}
+{"name": "Semaphore", "text": "Most students find a semaphore demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Print Statement", "text": "You met the print statement in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Backpropagation", "text": "backpropagation builds on earlier ideas; you must trace a few steps and hold one invariant in mind. We return to this point in the next lecture.", "label": "medium"}
+{"name": "Boolean", "text": "You met a boolean in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Paxos Leader Election", "text": "Paxos leader election requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Semaphore", "text": "Understanding a semaphore takes a diagram and a careful read, but no heavy proof. The notation follows the textbook.", "label": "medium"}
+{"name": "Amortised Analysis Of Fibonacci Heap", "text": "Most students find the amortised analysis of a Fibonacci heap demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Boolean", "text": "a boolean is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Linked List", "text": "a linked list builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Dynamic Programming", "text": "dynamic programming requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "medium"}
+{"name": "Persistent Datstructure Fat-Node Encoding", "text": "Most students find persistent data structure fat-node encoding demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Reference Counting", "text": "reference counting has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Comment", "text": "a comment is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Kkt Optimality Conditions", "text": "Most students find the KKT optimality conditions demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Integer", "text": "an integer is straightforward: it simply holds or names a single value you can read. We return to this point in the next lecture.", "label": "easy"}
+{"name": "Cap Theorem", "text": "Understanding the CAP theorem takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Red-Black Tree", "text": "a red-black tree has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Integer", "text": "an integer needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Context Switch", "text": "a context switch builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "For Loop", "text": "You met a for loop in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Print Statement", "text": "the print statement is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "If Statement", "text": "an if statement is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Array", "text": "an array is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Expectation-Maximisation Derivation", "text": "the expectation-maximisation derivation combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Cache-Oblivious Matrix Transposition", "text": "Most students find cache-oblivious matrix transposition demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Return Keyword", "text": "You met the return keyword in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Boolean", "text": "You met a boolean in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Cache-Oblivious Matrix Transposition", "text": "cache-oblivious matrix transposition combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Paxos Leader Election", "text": "Paxos leader election combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Pcp Theorem", "text": "the PCP theorem combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Binary Search", "text": "binary search combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Reference Counting", "text": "reference counting has a couple of edge cases that trip people up on the first attempt. We return to this point in the next lecture.", "label": "medium"}
+{"name": "Array", "text": "an array is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Polynomial Hierarchy", "text": "Most students find the polynomial hierarchy demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Producer-Consumer Problem", "text": "the producer-consumer problem builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Page Table", "text": "the page table builds on earlier ideas; you must trace a few steps and hold one invariant in mind. The notation follows the textbook.", "label": "medium"}
+{"name": "Backpropagation", "text": "Understanding backpropagation takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Expectation-Maximisation Derivation", "text": "the expectation-maximisation derivation requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Variable", "text": "a variable needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Backpropagation", "text": "Understanding backpropagation takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Red-Black Tree", "text": "a red-black tree has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Backpropagation", "text": "backpropagation has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Binary Search", "text": "Understanding binary search takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Comment", "text": "You met a comment in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "String", "text": "a string needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Persistent Datstructure Fat-Node Encoding", "text": "persistent data structure fat-node encoding combines several non-obvious results; the proof uses amortisation and probabilistic bounds. Keep the running time in mind as we go.", "label": "hard"}
+{"name": "Kkt Optimality Conditions", "text": "the KKT optimality conditions combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "List Index", "text": "a list index is straightforward: it simply holds or names a single value you can read. We return to this point in the next lecture.", "label": "easy"}
+{"name": "String", "text": "a string needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Amortised Analysis Of Fibonacci Heap", "text": "the amortised analysis of a Fibonacci heap combines several non-obvious results; the proof uses amortisation and probabilistic bounds. Keep the running time in mind as we go.", "label": "medium"}
+{"name": "Amortised Analysis Of Fibonacci Heap", "text": "the amortised analysis of a Fibonacci heap combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Expectation-Maximisation Derivation", "text": "the expectation-maximisation derivation requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Array", "text": "You met an array in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Print Statement", "text": "the print statement needs no maths \u2014 just remember the syntax and what it stands for. It is worth pausing to make sure this is clear.", "label": "easy"}
+{"name": "Backpropagation", "text": "backpropagation has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Dijkstra'S Algorithm", "text": "Understanding Dijkstra's algorithm takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Amortised Analysis", "text": "amortised analysis has a couple of edge cases that trip people up on the first attempt.", "label": "hard"}
+{"name": "Linked List", "text": "a linked list combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Function Call", "text": "a function call needs no maths \u2014 just remember the syntax and what it stands for.", "label": "medium"}
+{"name": "Linked List", "text": "a linked list has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "L2 Regularisation", "text": "Understanding L2 regularisation takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Master Theorem", "text": "the master theorem has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Priority Queue", "text": "Understanding a priority queue takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Page Table", "text": "Understanding the page table takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Amortised Analysis Of Fibonacci Heap", "text": "the amortised analysis of a Fibonacci heap combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "medium"}
+{"name": "Return Keyword", "text": "the return keyword needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Hash Table", "text": "Most students find hash table demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "List Index", "text": "a list index needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Pcp Theorem", "text": "Most students find the PCP theorem demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Persistent Datstructure Fat-Node Encoding", "text": "persistent data structure fat-node encoding combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Amortised Analysis", "text": "amortised analysis has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Dynamic Programming", "text": "dynamic programming has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "For Loop", "text": "a for loop needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Merge Step", "text": "a merge step has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Linked List", "text": "a linked list builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Producer-Consumer Problem", "text": "the producer-consumer problem builds on earlier ideas; you must trace a few steps and hold one invariant in mind. We return to this point in the next lecture.", "label": "medium"}
+{"name": "Quicksort", "text": "quicksort combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Wait-Free Consensus Hierarchies", "text": "wait-free consensus hierarchies requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "B-Tree", "text": "a B-tree builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Page Table", "text": "the page table requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Amortised Analysis Of Fibonacci Heap", "text": "Most students find the amortised analysis of a Fibonacci heap demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "B-Tree", "text": "Understanding a B-tree takes a diagram and a careful read, but no heavy proof. This idea comes up repeatedly later in the course.", "label": "medium"}
+{"name": "Bias-Variance Tradeoff", "text": "the bias-variance tradeoff builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Wait-Free Consensus Hierarchies", "text": "wait-free consensus hierarchies requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Hash Table", "text": "hash table combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Array", "text": "an array is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Integer", "text": "an integer is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Amortised Analysis Of Fibonacci Heap", "text": "Most students find the amortised analysis of a Fibonacci heap demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Print Statement", "text": "the print statement needs no maths \u2014 just remember the syntax and what it stands for. Keep the running time in mind as we go.", "label": "easy"}
+{"name": "Array", "text": "an array is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "For Loop", "text": "a for loop is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Print Statement", "text": "the print statement needs no maths \u2014 just remember the syntax and what it stands for. It is worth pausing to make sure this is clear.", "label": "easy"}
+{"name": "Print Statement", "text": "the print statement is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Dynamic Programming", "text": "dynamic programming builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Amortised Analysis", "text": "amortised analysis has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "If Statement", "text": "You met an if statement in week one; there is nothing subtle about it. It is worth pausing to make sure this is clear.", "label": "easy"}
+{"name": "Array", "text": "You met an array in week one; there is nothing subtle about it. Keep the running time in mind as we go.", "label": "easy"}
+{"name": "Function Call", "text": "a function call needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Dijkstra'S Algorithm", "text": "Dijkstra's algorithm builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Semaphore", "text": "a semaphore builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Priority Queue", "text": "a priority queue has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Whitespace Character", "text": "a whitespace character needs no maths \u2014 just remember the syntax and what it stands for. Keep the running time in mind as we go.", "label": "easy"}
+{"name": "Comment", "text": "You met a comment in week one; there is nothing subtle about it.", "label": "medium"}
+{"name": "Master Theorem", "text": "the master theorem has a couple of edge cases that trip people up on the first attempt. We return to this point in the next lecture.", "label": "medium"}
+{"name": "Linked List", "text": "a linked list combines several non-obvious results; the proof uses amortisation and probabilistic bounds. The notation follows the textbook.", "label": "hard"}
+{"name": "B-Tree", "text": "a B-tree builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "For Loop", "text": "You met a for loop in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "For Loop", "text": "You met a for loop in week one; there is nothing subtle about it. We return to this point in the next lecture.", "label": "easy"}
+{"name": "Kkt Optimality Conditions", "text": "Most students find the KKT optimality conditions demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Expectation-Maximisation Derivation", "text": "the expectation-maximisation derivation combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Backpropagation", "text": "backpropagation has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Call Stack", "text": "the call stack has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "List Index", "text": "a list index is straightforward: it simply holds or names a single value you can read. Keep the running time in mind as we go.", "label": "easy"}
+{"name": "List Index", "text": "You met a list index in week one; there is nothing subtle about it.", "label": "medium"}
+{"name": "Kkt Optimality Conditions", "text": "the KKT optimality conditions combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Print Statement", "text": "the print statement is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Return Keyword", "text": "You met the return keyword in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Function Call", "text": "a function call is straightforward: it simply holds or names a single value you can read. Keep the running time in mind as we go.", "label": "easy"}
+{"name": "For Loop", "text": "a for loop is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Spin Lock", "text": "a spin lock has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Tcp Congestion Control", "text": "TCP congestion control builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Page Table", "text": "the page table has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "If Statement", "text": "an if statement is straightforward: it simply holds or names a single value you can read. It is worth pausing to make sure this is clear.", "label": "easy"}
+{"name": "Print Statement", "text": "You met the print statement in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Quicksort", "text": "quicksort has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Producer-Consumer Problem", "text": "the producer-consumer problem builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Function Call", "text": "a function call is straightforward: it simply holds or names a single value you can read.", "label": "medium"}
+{"name": "Polynomial Hierarchy", "text": "Most students find the polynomial hierarchy demanding: the derivation is long and every step matters. Keep the running time in mind as we go.", "label": "hard"}
+{"name": "List Index", "text": "a list index is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Quicksort", "text": "Most students find quicksort demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Call Stack", "text": "the call stack combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Paxos Leader Election", "text": "Most students find Paxos leader election demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Array", "text": "an array is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Master Theorem", "text": "Understanding the master theorem takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "If Statement", "text": "You met an if statement in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Reference Counting", "text": "reference counting builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Binary Search", "text": "binary search requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Master Theorem", "text": "the master theorem builds on earlier ideas; you must trace a few steps and hold one invariant in mind. It is worth pausing to make sure this is clear.", "label": "easy"}
+{"name": "Merge Step", "text": "Understanding a merge step takes a diagram and a careful read, but no heavy proof. This idea comes up repeatedly later in the course.", "label": "medium"}
+{"name": "For Loop", "text": "a for loop needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Array", "text": "an array is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Polynomial Hierarchy", "text": "Most students find the polynomial hierarchy demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Spin Lock", "text": "a spin lock builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Array", "text": "You met an array in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Suffix Array", "text": "a suffix array has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Context Switch", "text": "Understanding a context switch takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Function Call", "text": "a function call needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Expectation-Maximisation Derivation", "text": "Most students find the expectation-maximisation derivation demanding: the derivation is long and every step matters. The notation follows the textbook.", "label": "hard"}
+{"name": "Lock-Free Concurrent Hashing", "text": "Most students find lock-free concurrent hashing demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Linked List", "text": "a linked list combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Page Table", "text": "Understanding the page table takes a diagram and a careful read, but no heavy proof. The notation follows the textbook.", "label": "medium"}
+{"name": "Page Table", "text": "the page table combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Priority Queue", "text": "a priority queue has a couple of edge cases that trip people up on the first attempt. It is worth pausing to make sure this is clear.", "label": "medium"}
+{"name": "Virtual Address", "text": "a virtual address builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Boolean", "text": "You met a boolean in week one; there is nothing subtle about it.", "label": "medium"}
+{"name": "Page Table", "text": "the page table requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "medium"}
+{"name": "Quicksort", "text": "quicksort builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Pcp Theorem", "text": "Most students find the PCP theorem demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Return Keyword", "text": "the return keyword needs no maths \u2014 just remember the syntax and what it stands for. This idea comes up repeatedly later in the course.", "label": "easy"}
+{"name": "Dynamic Programming", "text": "dynamic programming combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "medium"}
+{"name": "Kkt Optimality Conditions", "text": "Most students find the KKT optimality conditions demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Whitespace Character", "text": "a whitespace character needs no maths \u2014 just remember the syntax and what it stands for. We return to this point in the next lecture.", "label": "easy"}
+{"name": "Integer", "text": "an integer is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Quicksort", "text": "quicksort has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "B-Tree", "text": "Understanding a B-tree takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "String", "text": "a string needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Master Theorem", "text": "Understanding the master theorem takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Binary Search", "text": "binary search combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Cap Theorem", "text": "the CAP theorem has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Persistent Datstructure Fat-Node Encoding", "text": "Most students find persistent data structure fat-node encoding demanding: the derivation is long and every step matters. The notation follows the textbook.", "label": "hard"}
+{"name": "List Index", "text": "a list index needs no maths \u2014 just remember the syntax and what it stands for. We return to this point in the next lecture.", "label": "easy"}
+{"name": "If Statement", "text": "You met an if statement in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Variable", "text": "You met a variable in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Bloom Filter", "text": "a bloom filter has a couple of edge cases that trip people up on the first attempt. It is worth pausing to make sure this is clear.", "label": "medium"}
+{"name": "Variable", "text": "You met a variable in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "L2 Regularisation", "text": "L2 regularisation has a couple of edge cases that trip people up on the first attempt.", "label": "easy"}
+{"name": "Variable", "text": "a variable is straightforward: it simply holds or names a single value you can read. We return to this point in the next lecture.", "label": "easy"}
+{"name": "Hash Table", "text": "Most students find hash table demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Print Statement", "text": "the print statement is straightforward: it simply holds or names a single value you can read. The notation follows the textbook.", "label": "easy"}
+{"name": "Reference Counting", "text": "reference counting has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Function Call", "text": "a function call needs no maths \u2014 just remember the syntax and what it stands for. Keep the running time in mind as we go.", "label": "easy"}
+{"name": "Backpropagation", "text": "backpropagation has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Variable", "text": "a variable needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Page Table", "text": "the page table requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "String", "text": "a string needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Expectation-Maximisation Derivation", "text": "Most students find the expectation-maximisation derivation demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Print Statement", "text": "the print statement is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Integer", "text": "You met an integer in week one; there is nothing subtle about it.", "label": "medium"}
+{"name": "Kkt Optimality Conditions", "text": "the KKT optimality conditions requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Boolean", "text": "a boolean needs no maths \u2014 just remember the syntax and what it stands for. We return to this point in the next lecture.", "label": "easy"}
+{"name": "Variable", "text": "a variable is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Merge Step", "text": "a merge step builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Integer", "text": "an integer is straightforward: it simply holds or names a single value you can read. We return to this point in the next lecture.", "label": "easy"}
+{"name": "Lock-Free Concurrent Hashing", "text": "Most students find lock-free concurrent hashing demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Hash Table", "text": "hash table requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "If Statement", "text": "You met an if statement in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Comment", "text": "a comment is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Semaphore", "text": "Most students find a semaphore demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Lock-Free Concurrent Hashing", "text": "lock-free concurrent hashing requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "B-Tree", "text": "a B-tree has a couple of edge cases that trip people up on the first attempt. It is worth pausing to make sure this is clear.", "label": "medium"}
+{"name": "Dynamic Programming", "text": "dynamic programming requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Kkt Optimality Conditions", "text": "Most students find the KKT optimality conditions demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Integer", "text": "an integer is straightforward: it simply holds or names a single value you can read. The notation follows the textbook.", "label": "easy"}
+{"name": "Persistent Datstructure Fat-Node Encoding", "text": "persistent data structure fat-node encoding requires case analysis, a potential function, and comfort with asymptotic reasoning. This idea comes up repeatedly later in the course.", "label": "hard"}
+{"name": "Quicksort", "text": "quicksort combines several non-obvious results; the proof uses amortisation and probabilistic bounds. The notation follows the textbook.", "label": "hard"}
+{"name": "Linked List", "text": "a linked list requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Bloom Filter", "text": "Understanding a bloom filter takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "B-Tree", "text": "a B-tree has a couple of edge cases that trip people up on the first attempt. It is worth pausing to make sure this is clear.", "label": "medium"}
+{"name": "For Loop", "text": "a for loop needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Producer-Consumer Problem", "text": "the producer-consumer problem builds on earlier ideas; you must trace a few steps and hold one invariant in mind. It is worth pausing to make sure this is clear.", "label": "easy"}
+{"name": "Print Statement", "text": "You met the print statement in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Expectation-Maximisation Derivation", "text": "Most students find the expectation-maximisation derivation demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "B-Tree", "text": "Understanding a B-tree takes a diagram and a careful read, but no heavy proof. The notation follows the textbook.", "label": "medium"}
+{"name": "Binary Search", "text": "Most students find binary search demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Array", "text": "You met an array in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Call Stack", "text": "the call stack requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Tcp Congestion Control", "text": "TCP congestion control builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Function Call", "text": "a function call is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Page Table", "text": "the page table combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Reference Counting", "text": "Understanding reference counting takes a diagram and a careful read, but no heavy proof. Keep the running time in mind as we go.", "label": "medium"}
+{"name": "Page Table", "text": "Most students find the page table demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Hash Table", "text": "Understanding hash table takes a diagram and a careful read, but no heavy proof.", "label": "hard"}
+{"name": "Bloom Filter", "text": "a bloom filter builds on earlier ideas; you must trace a few steps and hold one invariant in mind. Keep the running time in mind as we go.", "label": "medium"}
+{"name": "List Index", "text": "a list index needs no maths \u2014 just remember the syntax and what it stands for. The notation follows the textbook.", "label": "easy"}
+{"name": "Binary Search", "text": "binary search requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "medium"}
+{"name": "Function Call", "text": "a function call is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Whitespace Character", "text": "a whitespace character is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "For Loop", "text": "a for loop needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "For Loop", "text": "a for loop is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Backpropagation", "text": "backpropagation has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Semaphore", "text": "Most students find a semaphore demanding: the derivation is long and every step matters. It is worth pausing to make sure this is clear.", "label": "hard"}
+{"name": "Page Table", "text": "Most students find the page table demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Polynomial Hierarchy", "text": "the polynomial hierarchy combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "medium"}
+{"name": "Binary Search", "text": "binary search builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Page Table", "text": "the page table combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Binary Search", "text": "Understanding binary search takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Integer", "text": "an integer is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Binary Search", "text": "binary search requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Call Stack", "text": "the call stack requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Return Keyword", "text": "the return keyword is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Expectation-Maximisation Derivation", "text": "the expectation-maximisation derivation requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Tcp Congestion Control", "text": "TCP congestion control has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Page Table", "text": "the page table requires case analysis, a potential function, and comfort with asymptotic reasoning. We return to this point in the next lecture.", "label": "hard"}
+{"name": "Linked List", "text": "a linked list combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Red-Black Tree", "text": "Understanding a red-black tree takes a diagram and a careful read, but no heavy proof.", "label": "hard"}
+{"name": "For Loop", "text": "a for loop needs no maths \u2014 just remember the syntax and what it stands for. We return to this point in the next lecture.", "label": "easy"}
+{"name": "Variable", "text": "You met a variable in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Print Statement", "text": "the print statement is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "List Index", "text": "a list index needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Merge Step", "text": "Understanding a merge step takes a diagram and a careful read, but no heavy proof. Keep the running time in mind as we go.", "label": "medium"}
+{"name": "Semaphore", "text": "a semaphore requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "medium"}
+{"name": "Function Call", "text": "a function call needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Master Theorem", "text": "the master theorem has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "L2 Regularisation", "text": "L2 regularisation has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Boolean", "text": "a boolean needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Boolean", "text": "You met a boolean in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Page Table", "text": "the page table has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Integer", "text": "You met an integer in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "B-Tree", "text": "Understanding a B-tree takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Cap Theorem", "text": "the CAP theorem builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Comment", "text": "You met a comment in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Context Switch", "text": "Understanding a context switch takes a diagram and a careful read, but no heavy proof. Keep the running time in mind as we go.", "label": "medium"}
+{"name": "Comment", "text": "a comment needs no maths \u2014 just remember the syntax and what it stands for.", "label": "medium"}
+{"name": "Whitespace Character", "text": "a whitespace character needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Call Stack", "text": "the call stack has a couple of edge cases that trip people up on the first attempt. It is worth pausing to make sure this is clear.", "label": "medium"}
+{"name": "List Index", "text": "You met a list index in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Hash Table", "text": "hash table requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Kkt Optimality Conditions", "text": "the KKT optimality conditions combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Paxos Leader Election", "text": "Paxos leader election combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Pcp Theorem", "text": "the PCP theorem requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "B-Tree", "text": "a B-tree has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Function Call", "text": "You met a function call in week one; there is nothing subtle about it. This idea comes up repeatedly later in the course.", "label": "easy"}
+{"name": "Paxos Leader Election", "text": "Paxos leader election combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Variable", "text": "a variable needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Cap Theorem", "text": "the CAP theorem builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Array", "text": "You met an array in week one; there is nothing subtle about it. The notation follows the textbook.", "label": "easy"}
+{"name": "For Loop", "text": "a for loop needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Dijkstra'S Algorithm", "text": "Dijkstra's algorithm has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "String", "text": "You met a string in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "B-Tree", "text": "a B-tree builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Lock-Free Concurrent Hashing", "text": "Most students find lock-free concurrent hashing demanding: the derivation is long and every step matters. It is worth pausing to make sure this is clear.", "label": "hard"}
+{"name": "Virtual Address", "text": "a virtual address has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Polynomial Hierarchy", "text": "the polynomial hierarchy requires case analysis, a potential function, and comfort with asymptotic reasoning. Keep the running time in mind as we go.", "label": "hard"}
+{"name": "Page Table", "text": "Understanding the page table takes a diagram and a careful read, but no heavy proof.", "label": "hard"}
+{"name": "Dynamic Programming", "text": "dynamic programming has a couple of edge cases that trip people up on the first attempt. This idea comes up repeatedly later in the course.", "label": "medium"}
+{"name": "Quicksort", "text": "Most students find quicksort demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Semaphore", "text": "a semaphore has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Bias-Variance Tradeoff", "text": "the bias-variance tradeoff has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Merge Step", "text": "a merge step builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "L2 Regularisation", "text": "L2 regularisation builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Pcp Theorem", "text": "the PCP theorem requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Variable", "text": "a variable is straightforward: it simply holds or names a single value you can read. It is worth pausing to make sure this is clear.", "label": "easy"}
+{"name": "Binary Search", "text": "binary search requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Semaphore", "text": "Most students find a semaphore demanding: the derivation is long and every step matters. We return to this point in the next lecture.", "label": "hard"}
+{"name": "Boolean", "text": "a boolean is straightforward: it simply holds or names a single value you can read.", "label": "medium"}
+{"name": "Comment", "text": "a comment is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Page Table", "text": "Most students find the page table demanding: the derivation is long and every step matters. Keep the running time in mind as we go.", "label": "hard"}
+{"name": "Red-Black Tree", "text": "a red-black tree builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Return Keyword", "text": "You met the return keyword in week one; there is nothing subtle about it. We return to this point in the next lecture.", "label": "medium"}
+{"name": "Lock-Free Concurrent Hashing", "text": "Most students find lock-free concurrent hashing demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Amortised Analysis Of Fibonacci Heap", "text": "the amortised analysis of a Fibonacci heap requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Call Stack", "text": "the call stack has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Tcp Congestion Control", "text": "Understanding TCP congestion control takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Persistent Datstructure Fat-Node Encoding", "text": "persistent data structure fat-node encoding combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Cache-Oblivious Matrix Transposition", "text": "Most students find cache-oblivious matrix transposition demanding: the derivation is long and every step matters.", "label": "hard"}
+{"name": "Bloom Filter", "text": "a bloom filter has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Priority Queue", "text": "a priority queue has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "For Loop", "text": "You met a for loop in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Hash Table", "text": "hash table combines several non-obvious results; the proof uses amortisation and probabilistic bounds.", "label": "hard"}
+{"name": "Hash Table", "text": "Understanding hash table takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "String", "text": "a string is straightforward: it simply holds or names a single value you can read.", "label": "easy"}
+{"name": "Page Table", "text": "the page table builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Hash Table", "text": "hash table has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "Call Stack", "text": "the call stack has a couple of edge cases that trip people up on the first attempt. Keep the running time in mind as we go.", "label": "medium"}
+{"name": "Page Table", "text": "the page table has a couple of edge cases that trip people up on the first attempt.", "label": "medium"}
+{"name": "If Statement", "text": "an if statement needs no maths \u2014 just remember the syntax and what it stands for. We return to this point in the next lecture.", "label": "easy"}
+{"name": "Print Statement", "text": "the print statement needs no maths \u2014 just remember the syntax and what it stands for.", "label": "easy"}
+{"name": "Context Switch", "text": "a context switch has a couple of edge cases that trip people up on the first attempt. It is worth pausing to make sure this is clear.", "label": "medium"}
+{"name": "Merge Step", "text": "Understanding a merge step takes a diagram and a careful read, but no heavy proof.", "label": "medium"}
+{"name": "Polynomial Hierarchy", "text": "the polynomial hierarchy requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "Whitespace Character", "text": "a whitespace character needs no maths \u2014 just remember the syntax and what it stands for. It is worth pausing to make sure this is clear.", "label": "easy"}
+{"name": "Function Call", "text": "You met a function call in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Bias-Variance Tradeoff", "text": "the bias-variance tradeoff builds on earlier ideas; you must trace a few steps and hold one invariant in mind.", "label": "medium"}
+{"name": "Reference Counting", "text": "Understanding reference counting takes a diagram and a careful read, but no heavy proof. This idea comes up repeatedly later in the course.", "label": "medium"}
+{"name": "Integer", "text": "You met an integer in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Return Keyword", "text": "You met the return keyword in week one; there is nothing subtle about it.", "label": "easy"}
+{"name": "Persistent Datstructure Fat-Node Encoding", "text": "persistent data structure fat-node encoding requires case analysis, a potential function, and comfort with asymptotic reasoning.", "label": "hard"}
+{"name": "If Statement", "text": "an if statement is straightforward: it simply holds or names a single value you can read.", "label": "easy"}

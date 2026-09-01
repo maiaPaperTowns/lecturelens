@@ -1,0 +1,770 @@
+{"text": "Allocate the temporary buffer once outside the loop to avoid repeated heap traffic.", "label": "implementation_detail"}
+{"text": "The procedure for a bloom filter is: pick a pivot, partition around it, then recurse on each part. This idea comes up repeatedly later in the course.", "label": "process"}
+{"text": "For example, applying quicksort to the list [5, 2, 9, 1] walks through three iterations.", "label": "example"}
+{"text": "Take a merge step and run it on a dictionary of ten thousand words to see the effect.", "label": "example"}
+{"text": "backpropagation: a structure that maps keys to array indices using a hash function and resolves collisions. Take TCP congestion control and run it on a dictionary of ten thousand words to see the effect.", "label": "definition"}
+{"text": "In C, a B-tree is a struct holding a key plus two node pointers and a colour bit. The procedure for a spin lock is: pick a pivot, partition around it, then recurse on each part.", "label": "implementation_detail"}
+{"text": "For instance, a suffix array is what your text editor's find command relies on.", "label": "example"}
+{"text": "The implementation stores child pointers in a fixed-size array of length two per node.", "label": "implementation_detail"}
+{"text": "Roadmap: today we motivate L2 regularisation; next time we prove the bound; then we benchmark it. The notation follows the textbook.", "label": "background_information"}
+{"text": "Repeat the following until the queue is empty: pop the front node and relax its edges.", "label": "process"}
+{"text": "Repeat the following until the queue is empty: pop the front node and relax its edges. The notation follows the textbook.", "label": "example"}
+{"text": "a semaphore is defined as a technique that locates a target value by repeatedly dividing the search interval in half.", "label": "definition"}
+{"text": "Theorem: the master theorem runs in O(log n) time in the worst case. It is worth pausing to make sure this is clear.", "label": "theorem_or_rule"}
+{"text": "Compared to quicksort, dynamic programming has a better worst case but larger constant factors. The invariant maintained by Dijkstra's algorithm is that the left portion is always fully processed.", "label": "comparison"}
+{"text": "This lecture introduces the master theorem and explains why it matters in real systems.", "label": "background_information"}
+{"text": "The implementation stores child pointers in a fixed-size array of length two per node. The notation follows the textbook.", "label": "implementation_detail"}
+{"text": "The motivation for a B-tree is the need to scale gracefully to very large inputs.", "label": "background_information"}
+{"text": "As a concrete example, a context switch on the input 42 returns the value at position three.", "label": "example"}
+{"text": "In C, reference counting is a struct holding a key plus two node pointers and a colour bit. This idea comes up repeatedly later in the course.", "label": "process"}
+{"text": "This lecture introduces gradient descent and explains why it matters in real systems.", "label": "definition"}
+{"text": "Property: the CAP theorem always terminates because a non-negative quantity strictly decreases.", "label": "theorem_or_rule"}
+{"text": "By definition, Dijkstra's algorithm is any method that maintains balance through rotations after every insertion and deletion.", "label": "definition"}
+{"text": "The motivation for backpropagation is the need to scale gracefully to very large inputs.", "label": "background_information"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside a merge step.", "label": "implementation_detail"}
+{"text": "Take L2 regularisation and run it on a dictionary of ten thousand words to see the effect.", "label": "example"}
+{"text": "Repeat the following until the queue is empty: pop the front node and relax its edges. In C, dynamic programming is a struct holding a key plus two node pointers and a colour bit.", "label": "process"}
+{"text": "Take reference counting and run it on a dictionary of ten thousand words to see the effect.", "label": "example"}
+{"text": "Historically, the call stack was first described decades ago and refined many times since.", "label": "background_information"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside amortised analysis.", "label": "implementation_detail"}
+{"text": "By the master theorem, the call stack satisfies the stated asymptotic bound.", "label": "theorem_or_rule"}
+{"text": "Lemma: if the input to dynamic programming is sorted, correctness follows by induction on the range.", "label": "theorem_or_rule"}
+{"text": "Over the next three weeks we will build the tools needed to analyse a merge step. Formally, a red-black tree refers to reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "background_information"}
+{"text": "Theorem: a linked list runs in O(log n) time in the worst case.", "label": "theorem_or_rule"}
+{"text": "First, we sort the array. Then we repeatedly halve the interval until it is empty.", "label": "process"}
+{"text": "def search(a, x):\n    lo, hi = 0, len(a) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2", "label": "implementation_detail"}
+{"text": "Over the next three weeks we will build the tools needed to analyse quicksort. This idea comes up repeatedly later in the course.", "label": "background_information"}
+{"text": "For instance, L2 regularisation is what your text editor's find command relies on.", "label": "example"}
+{"text": "Unlike linear search, a bloom filter needs sorted input but is far faster on large arrays.", "label": "comparison"}
+{"text": "By definition, Dijkstra's algorithm is any method that maintains balance through rotations after every insertion and deletion. Take a bloom filter and run it on a dictionary of ten thousand words to see the effect.", "label": "definition"}
+{"text": "The term quicksort denotes the mechanism by which a program locates a target value by repeatedly dividing the search interval in half. Keep the running time in mind as we go.", "label": "definition"}
+{"text": "In contrast to breadth-first search, the CAP theorem uses far less memory but can go deep. Keep the running time in mind as we go.", "label": "comparison"}
+{"text": "The implementation stores child pointers in a fixed-size array of length two per node. Next, update the pointers; after that, free the removed node; finally, return.", "label": "implementation_detail"}
+{"text": "Worked example: with a red-black tree and array [3, 1, 2] the result after one pass is [1, 2, 3]. The notation follows the textbook.", "label": "example"}
+{"text": "Historically, the call stack was first described decades ago and refined many times since.", "label": "background_information"}
+{"text": "Property: dynamic programming always terminates because a non-negative quantity strictly decreases.", "label": "theorem_or_rule"}
+{"text": "By the master theorem, a red-black tree satisfies the stated asymptotic bound. the CAP theorem versus a hash table: one keeps ordering, the other gives average constant lookup.", "label": "theorem_or_rule"}
+{"text": "Allocate the temporary buffer once outside the loop to avoid repeated heap traffic.", "label": "implementation_detail"}
+{"text": "The implementation stores child pointers in a fixed-size array of length two per node.", "label": "implementation_detail"}
+{"text": "First, we sort the array. Then we repeatedly halve the interval until it is empty.", "label": "process"}
+{"text": "Historically, a B-tree was first described decades ago and refined many times since.", "label": "background_information"}
+{"text": "Theorem: a context switch runs in O(log n) time in the worst case. the page table versus a hash table: one keeps ordering, the other gives average constant lookup.", "label": "theorem_or_rule"}
+{"text": "In C, a priority queue is a struct holding a key plus two node pointers and a colour bit.", "label": "implementation_detail"}
+{"text": "In C, TCP congestion control is a struct holding a key plus two node pointers and a colour bit.", "label": "implementation_detail"}
+{"text": "For example, applying quicksort to the list [5, 2, 9, 1] walks through three iterations.", "label": "example"}
+{"text": "def search(a, x):\n    lo, hi = 0, len(a) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2", "label": "implementation_detail"}
+{"text": "Theorem: the page table runs in O(log n) time in the worst case. Whereas the naive method rescans everything, a B-tree reuses previously computed work.", "label": "theorem_or_rule"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside gradient descent.", "label": "implementation_detail"}
+{"text": "the bias-variance tradeoff: a structure that trades additional memory for asymptotically faster lookups.", "label": "definition"}
+{"text": "The term amortised analysis denotes the mechanism by which a program maintains balance through rotations after every insertion and deletion.", "label": "definition"}
+{"text": "This lecture introduces backpropagation and explains why it matters in real systems. The notation follows the textbook.", "label": "background_information"}
+{"text": "First, we sort the array. Then we repeatedly halve the interval until it is empty. It is worth pausing to make sure this is clear.", "label": "process"}
+{"text": "Rule: the bias-variance tradeoff is correct only if the precondition on ordering holds. In contrast to breadth-first search, gradient descent uses far less memory but can go deep.", "label": "theorem_or_rule"}
+{"text": "Over the next three weeks we will build the tools needed to analyse the master theorem.", "label": "background_information"}
+{"text": "Roadmap: today we motivate L2 regularisation; next time we prove the bound; then we benchmark it.", "label": "background_information"}
+{"text": "For example, applying backpropagation to the list [5, 2, 9, 1] walks through three iterations.", "label": "example"}
+{"text": "Property: a semaphore always terminates because a non-negative quantity strictly decreases.", "label": "theorem_or_rule"}
+{"text": "The term the page table denotes the mechanism by which a program maps keys to array indices using a hash function and resolves collisions.", "label": "definition"}
+{"text": "Repeat the following until the queue is empty: pop the front node and relax its edges. Allocate the temporary buffer once outside the loop to avoid repeated heap traffic.", "label": "process"}
+{"text": "For example, applying L2 regularisation to the list [5, 2, 9, 1] walks through three iterations. First, we sort the array. Then we repeatedly halve the interval until it is empty.", "label": "example"}
+{"text": "def search(a, x):\n    lo, hi = 0, len(a) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2", "label": "implementation_detail"}
+{"text": "The procedure for a virtual address is: pick a pivot, partition around it, then recurse on each part.", "label": "example"}
+{"text": "In C, L2 regularisation is a struct holding a key plus two node pointers and a colour bit.", "label": "implementation_detail"}
+{"text": "Theorem: TCP congestion control runs in O(log n) time in the worst case.", "label": "theorem_or_rule"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "example"}
+{"text": "The term a suffix array denotes the mechanism by which a program trades additional memory for asymptotically faster lookups. We return to this point in the next lecture.", "label": "definition"}
+{"text": "Take a bloom filter and run it on a dictionary of ten thousand words to see the effect. Next, update the pointers; after that, free the removed node; finally, return.", "label": "example"}
+{"text": "This lecture introduces L2 regularisation and explains why it matters in real systems.", "label": "background_information"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance. def search(a, x):\n    lo, hi = 0, len(a) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2", "label": "process"}
+{"text": "Lemma: if the input to L2 regularisation is sorted, correctness follows by induction on the range.", "label": "theorem_or_rule"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance. The notation follows the textbook.", "label": "process"}
+{"text": "In C, the page table is a struct holding a key plus two node pointers and a colour bit.", "label": "implementation_detail"}
+{"text": "In contrast to breadth-first search, a B-tree uses far less memory but can go deep.", "label": "comparison"}
+{"text": "For example, applying the page table to the list [5, 2, 9, 1] walks through three iterations.", "label": "example"}
+{"text": "Over the next three weeks we will build the tools needed to analyse the CAP theorem.", "label": "background_information"}
+{"text": "We say that a linked list is a construct that reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "definition"}
+{"text": "Consider a merge step: suppose we start with n = 8 and trace what happens at each step.", "label": "example"}
+{"text": "Theorem: a suffix array runs in O(log n) time in the worst case. This idea comes up repeatedly later in the course.", "label": "theorem_or_rule"}
+{"text": "By definition, amortised analysis is any method that locates a target value by repeatedly dividing the search interval in half.", "label": "definition"}
+{"text": "Worked example: with the producer-consumer problem and array [3, 1, 2] the result after one pass is [1, 2, 3].", "label": "example"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside the master theorem.", "label": "implementation_detail"}
+{"text": "For example, applying binary search to the list [5, 2, 9, 1] walks through three iterations.", "label": "example"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "process"}
+{"text": "Next, update the pointers; after that, free the removed node; finally, return.", "label": "process"}
+{"text": "Rule: TCP congestion control is correct only if the precondition on ordering holds.", "label": "theorem_or_rule"}
+{"text": "In C, reference counting is a struct holding a key plus two node pointers and a colour bit.", "label": "implementation_detail"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance. This idea comes up repeatedly later in the course.", "label": "process"}
+{"text": "The term a red-black tree denotes the mechanism by which a program stores elements so the smallest can be retrieved in logarithmic time.", "label": "definition"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside dynamic programming. This idea comes up repeatedly later in the course.", "label": "implementation_detail"}
+{"text": "Allocate the temporary buffer once outside the loop to avoid repeated heap traffic. Step 1: initialise the bounds. Step 2: compute the midpoint. Step 3: recurse on one side.", "label": "implementation_detail"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance. Watch for integer overflow when computing mid = (lo + hi) // 2 inside amortised analysis.", "label": "process"}
+{"text": "The term a B-tree denotes the mechanism by which a program reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "definition"}
+{"text": "Over the next three weeks we will build the tools needed to analyse a priority queue. We say that a B-tree is a construct that reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "background_information"}
+{"text": "The motivation for a virtual address is the need to scale gracefully to very large inputs. By definition, quicksort is any method that trades additional memory for asymptotically faster lookups.", "label": "background_information"}
+{"text": "Unlike linear search, amortised analysis needs sorted input but is far faster on large arrays.", "label": "comparison"}
+{"text": "Whereas the naive method rescans everything, L2 regularisation reuses previously computed work. By the master theorem, a context switch satisfies the stated asymptotic bound.", "label": "comparison"}
+{"text": "Unlike linear search, the master theorem needs sorted input but is far faster on large arrays.", "label": "comparison"}
+{"text": "The tradeoff is clear: the master theorem is slower to build yet cheaper to query afterwards. The invariant maintained by a context switch is that the left portion is always fully processed.", "label": "comparison"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside backpropagation.", "label": "implementation_detail"}
+{"text": "Over the next three weeks we will build the tools needed to analyse the CAP theorem.", "label": "background_information"}
+{"text": "The implementation stores child pointers in a fixed-size array of length two per node.", "label": "implementation_detail"}
+{"text": "First, we sort the array. Then we repeatedly halve the interval until it is empty.", "label": "process"}
+{"text": "Theorem: the CAP theorem runs in O(log n) time in the worst case.", "label": "theorem_or_rule"}
+{"text": "The tradeoff is clear: the bias-variance tradeoff is slower to build yet cheaper to query afterwards.", "label": "comparison"}
+{"text": "Next, update the pointers; after that, free the removed node; finally, return. The function returns -1 when the key is absent, so callers must check before indexing.", "label": "process"}
+{"text": "By definition, quicksort is any method that locates a target value by repeatedly dividing the search interval in half. Consider dynamic programming: suppose we start with n = 8 and trace what happens at each step.", "label": "definition"}
+{"text": "Allocate the temporary buffer once outside the loop to avoid repeated heap traffic. The notation follows the textbook.", "label": "implementation_detail"}
+{"text": "We say that the call stack is a construct that reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "definition"}
+{"text": "Whereas the naive method rescans everything, the bias-variance tradeoff reuses previously computed work.", "label": "comparison"}
+{"text": "The procedure for a suffix array is: pick a pivot, partition around it, then recurse on each part. def search(a, x):\n    lo, hi = 0, len(a) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2", "label": "process"}
+{"text": "Take a semaphore and run it on a dictionary of ten thousand words to see the effect.", "label": "example"}
+{"text": "gradient descent versus a hash table: one keeps ordering, the other gives average constant lookup.", "label": "comparison"}
+{"text": "Lemma: if the input to backpropagation is sorted, correctness follows by induction on the range.", "label": "theorem_or_rule"}
+{"text": "First, we sort the array. Then we repeatedly halve the interval until it is empty.", "label": "process"}
+{"text": "the master theorem is defined as a technique that maintains balance through rotations after every insertion and deletion.", "label": "background_information"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "process"}
+{"text": "Consider the producer-consumer problem: suppose we start with n = 8 and trace what happens at each step.", "label": "example"}
+{"text": "Step 1: initialise the bounds. Step 2: compute the midpoint. Step 3: recurse on one side.", "label": "process"}
+{"text": "We say that the call stack is a construct that stores elements so the smallest can be retrieved in logarithmic time.", "label": "definition"}
+{"text": "The implementation stores child pointers in a fixed-size array of length two per node.", "label": "implementation_detail"}
+{"text": "hash table is defined as a technique that stores elements so the smallest can be retrieved in logarithmic time. Keep the running time in mind as we go.", "label": "background_information"}
+{"text": "Dijkstra's algorithm: a structure that maps keys to array indices using a hash function and resolves collisions.", "label": "definition"}
+{"text": "def search(a, x):\n    lo, hi = 0, len(a) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2", "label": "implementation_detail"}
+{"text": "The function returns -1 when the key is absent, so callers must check before indexing.", "label": "implementation_detail"}
+{"text": "The function returns -1 when the key is absent, so callers must check before indexing.", "label": "implementation_detail"}
+{"text": "The function returns -1 when the key is absent, so callers must check before indexing.", "label": "implementation_detail"}
+{"text": "Next, update the pointers; after that, free the removed node; finally, return.", "label": "process"}
+{"text": "In contrast to breadth-first search, TCP congestion control uses far less memory but can go deep.", "label": "comparison"}
+{"text": "First, we sort the array. Then we repeatedly halve the interval until it is empty.", "label": "process"}
+{"text": "Rule: hash table is correct only if the precondition on ordering holds.", "label": "theorem_or_rule"}
+{"text": "The invariant maintained by a priority queue is that the left portion is always fully processed.", "label": "theorem_or_rule"}
+{"text": "The tradeoff is clear: amortised analysis is slower to build yet cheaper to query afterwards. The notation follows the textbook.", "label": "comparison"}
+{"text": "The invariant maintained by a suffix array is that the left portion is always fully processed.", "label": "theorem_or_rule"}
+{"text": "The procedure for binary search is: pick a pivot, partition around it, then recurse on each part. It is worth pausing to make sure this is clear.", "label": "process"}
+{"text": "For example, applying TCP congestion control to the list [5, 2, 9, 1] walks through three iterations. The procedure for a suffix array is: pick a pivot, partition around it, then recurse on each part.", "label": "example"}
+{"text": "hash table is defined as a technique that maps keys to array indices using a hash function and resolves collisions.", "label": "definition"}
+{"text": "The motivation for the CAP theorem is the need to scale gracefully to very large inputs.", "label": "background_information"}
+{"text": "Theorem: hash table runs in O(log n) time in the worst case.", "label": "comparison"}
+{"text": "Formally, amortised analysis refers to reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "definition"}
+{"text": "Repeat the following until the queue is empty: pop the front node and relax its edges.", "label": "process"}
+{"text": "In C, TCP congestion control is a struct holding a key plus two node pointers and a colour bit. This idea comes up repeatedly later in the course.", "label": "implementation_detail"}
+{"text": "the bias-variance tradeoff: a structure that locates a target value by repeatedly dividing the search interval in half.", "label": "definition"}
+{"text": "Repeat the following until the queue is empty: pop the front node and relax its edges.", "label": "example"}
+{"text": "Roadmap: today we motivate the bias-variance tradeoff; next time we prove the bound; then we benchmark it. Formally, the page table refers to maintains balance through rotations after every insertion and deletion.", "label": "background_information"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside a suffix array.", "label": "implementation_detail"}
+{"text": "Compared to quicksort, a linked list has a better worst case but larger constant factors.", "label": "comparison"}
+{"text": "a semaphore is defined as a technique that maintains balance through rotations after every insertion and deletion.", "label": "definition"}
+{"text": "In contrast to breadth-first search, backpropagation uses far less memory but can go deep.", "label": "comparison"}
+{"text": "We say that Dijkstra's algorithm is a construct that reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "definition"}
+{"text": "def search(a, x):\n    lo, hi = 0, len(a) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2", "label": "implementation_detail"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "process"}
+{"text": "the CAP theorem: a structure that locates a target value by repeatedly dividing the search interval in half. Keep the running time in mind as we go.", "label": "definition"}
+{"text": "Unlike linear search, a bloom filter needs sorted input but is far faster on large arrays.", "label": "comparison"}
+{"text": "This lecture introduces backpropagation and explains why it matters in real systems.", "label": "background_information"}
+{"text": "Lemma: if the input to quicksort is sorted, correctness follows by induction on the range.", "label": "theorem_or_rule"}
+{"text": "Roadmap: today we motivate a suffix array; next time we prove the bound; then we benchmark it.", "label": "background_information"}
+{"text": "Lemma: if the input to a red-black tree is sorted, correctness follows by induction on the range.", "label": "theorem_or_rule"}
+{"text": "In contrast to breadth-first search, the producer-consumer problem uses far less memory but can go deep.", "label": "theorem_or_rule"}
+{"text": "Worked example: with hash table and array [3, 1, 2] the result after one pass is [1, 2, 3]. Next, update the pointers; after that, free the removed node; finally, return.", "label": "example"}
+{"text": "We say that Dijkstra's algorithm is a construct that maps keys to array indices using a hash function and resolves collisions.", "label": "definition"}
+{"text": "Before we begin, recall the prerequisites you need to follow the treatment of a bloom filter.", "label": "background_information"}
+{"text": "Repeat the following until the queue is empty: pop the front node and relax its edges.", "label": "process"}
+{"text": "Rule: amortised analysis is correct only if the precondition on ordering holds. We return to this point in the next lecture.", "label": "theorem_or_rule"}
+{"text": "a priority queue: a structure that stores elements so the smallest can be retrieved in logarithmic time. The notation follows the textbook.", "label": "definition"}
+{"text": "Lemma: if the input to amortised analysis is sorted, correctness follows by induction on the range.", "label": "comparison"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside a priority queue.", "label": "implementation_detail"}
+{"text": "Compared to quicksort, a spin lock has a better worst case but larger constant factors. The invariant maintained by a suffix array is that the left portion is always fully processed.", "label": "comparison"}
+{"text": "Repeat the following until the queue is empty: pop the front node and relax its edges.", "label": "process"}
+{"text": "We say that the CAP theorem is a construct that locates a target value by repeatedly dividing the search interval in half. Keep the running time in mind as we go.", "label": "definition"}
+{"text": "Compared to quicksort, quicksort has a better worst case but larger constant factors.", "label": "theorem_or_rule"}
+{"text": "Compared to quicksort, the CAP theorem has a better worst case but larger constant factors.", "label": "comparison"}
+{"text": "Historically, backpropagation was first described decades ago and refined many times since.", "label": "definition"}
+{"text": "Worked example: with L2 regularisation and array [3, 1, 2] the result after one pass is [1, 2, 3]. First, we sort the array. Then we repeatedly halve the interval until it is empty.", "label": "example"}
+{"text": "L2 regularisation: a structure that maintains balance through rotations after every insertion and deletion. Consider a merge step: suppose we start with n = 8 and trace what happens at each step.", "label": "definition"}
+{"text": "The procedure for backpropagation is: pick a pivot, partition around it, then recurse on each part. The notation follows the textbook.", "label": "process"}
+{"text": "In contrast to breadth-first search, the call stack uses far less memory but can go deep.", "label": "comparison"}
+{"text": "Next, update the pointers; after that, free the removed node; finally, return.", "label": "example"}
+{"text": "Consider a B-tree: suppose we start with n = 8 and trace what happens at each step.", "label": "example"}
+{"text": "the bias-variance tradeoff versus a hash table: one keeps ordering, the other gives average constant lookup.", "label": "comparison"}
+{"text": "Worked example: with the CAP theorem and array [3, 1, 2] the result after one pass is [1, 2, 3].", "label": "example"}
+{"text": "Next, update the pointers; after that, free the removed node; finally, return.", "label": "process"}
+{"text": "Compared to quicksort, a red-black tree has a better worst case but larger constant factors.", "label": "comparison"}
+{"text": "Step 1: initialise the bounds. Step 2: compute the midpoint. Step 3: recurse on one side. The notation follows the textbook.", "label": "process"}
+{"text": "We say that amortised analysis is a construct that maps keys to array indices using a hash function and resolves collisions.", "label": "definition"}
+{"text": "Repeat the following until the queue is empty: pop the front node and relax its edges.", "label": "process"}
+{"text": "For instance, a virtual address is what your text editor's find command relies on.", "label": "example"}
+{"text": "Lemma: if the input to backpropagation is sorted, correctness follows by induction on the range. Compared to quicksort, amortised analysis has a better worst case but larger constant factors.", "label": "theorem_or_rule"}
+{"text": "Roadmap: today we motivate a bloom filter; next time we prove the bound; then we benchmark it.", "label": "background_information"}
+{"text": "Whereas the naive method rescans everything, a context switch reuses previously computed work. By the master theorem, the page table satisfies the stated asymptotic bound.", "label": "comparison"}
+{"text": "Next, update the pointers; after that, free the removed node; finally, return.", "label": "process"}
+{"text": "This lecture introduces the call stack and explains why it matters in real systems.", "label": "background_information"}
+{"text": "Consider a priority queue: suppose we start with n = 8 and trace what happens at each step. Repeat the following until the queue is empty: pop the front node and relax its edges.", "label": "example"}
+{"text": "Before we begin, recall the prerequisites you need to follow the treatment of a context switch.", "label": "background_information"}
+{"text": "Unlike linear search, a B-tree needs sorted input but is far faster on large arrays. Lemma: if the input to backpropagation is sorted, correctness follows by induction on the range.", "label": "comparison"}
+{"text": "We say that L2 regularisation is a construct that stores elements so the smallest can be retrieved in logarithmic time.", "label": "definition"}
+{"text": "For instance, Dijkstra's algorithm is what your text editor's find command relies on.", "label": "example"}
+{"text": "Roadmap: today we motivate a red-black tree; next time we prove the bound; then we benchmark it. It is worth pausing to make sure this is clear.", "label": "background_information"}
+{"text": "Step 1: initialise the bounds. Step 2: compute the midpoint. Step 3: recurse on one side.", "label": "process"}
+{"text": "We say that amortised analysis is a construct that locates a target value by repeatedly dividing the search interval in half.", "label": "definition"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "process"}
+{"text": "For example, applying the CAP theorem to the list [5, 2, 9, 1] walks through three iterations. It is worth pausing to make sure this is clear.", "label": "example"}
+{"text": "By the master theorem, the bias-variance tradeoff satisfies the stated asymptotic bound.", "label": "theorem_or_rule"}
+{"text": "Whereas the naive method rescans everything, the bias-variance tradeoff reuses previously computed work.", "label": "comparison"}
+{"text": "Before we begin, recall the prerequisites you need to follow the treatment of reference counting. This idea comes up repeatedly later in the course.", "label": "background_information"}
+{"text": "The implementation stores child pointers in a fixed-size array of length two per node.", "label": "implementation_detail"}
+{"text": "Whereas the naive method rescans everything, binary search reuses previously computed work.", "label": "comparison"}
+{"text": "Whereas the naive method rescans everything, gradient descent reuses previously computed work.", "label": "comparison"}
+{"text": "As a concrete example, a merge step on the input 42 returns the value at position three.", "label": "example"}
+{"text": "We say that a merge step is a construct that maintains balance through rotations after every insertion and deletion.", "label": "definition"}
+{"text": "This lecture introduces a merge step and explains why it matters in real systems.", "label": "background_information"}
+{"text": "a semaphore is defined as a technique that locates a target value by repeatedly dividing the search interval in half.", "label": "definition"}
+{"text": "reference counting is defined as a technique that maintains balance through rotations after every insertion and deletion.", "label": "definition"}
+{"text": "The implementation stores child pointers in a fixed-size array of length two per node. The notation follows the textbook.", "label": "implementation_detail"}
+{"text": "Consider a semaphore: suppose we start with n = 8 and trace what happens at each step.", "label": "example"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "process"}
+{"text": "For example, applying a virtual address to the list [5, 2, 9, 1] walks through three iterations.", "label": "example"}
+{"text": "Next, update the pointers; after that, free the removed node; finally, return. Watch for integer overflow when computing mid = (lo + hi) // 2 inside the master theorem.", "label": "process"}
+{"text": "Rule: a virtual address is correct only if the precondition on ordering holds.", "label": "theorem_or_rule"}
+{"text": "The procedure for gradient descent is: pick a pivot, partition around it, then recurse on each part.", "label": "process"}
+{"text": "Next, update the pointers; after that, free the removed node; finally, return.", "label": "process"}
+{"text": "In contrast to breadth-first search, dynamic programming uses far less memory but can go deep. Theorem: L2 regularisation runs in O(log n) time in the worst case.", "label": "comparison"}
+{"text": "Formally, reference counting refers to maps keys to array indices using a hash function and resolves collisions.", "label": "definition"}
+{"text": "This lecture introduces a virtual address and explains why it matters in real systems.", "label": "definition"}
+{"text": "The function returns -1 when the key is absent, so callers must check before indexing.", "label": "implementation_detail"}
+{"text": "By definition, a red-black tree is any method that trades additional memory for asymptotically faster lookups. This idea comes up repeatedly later in the course.", "label": "definition"}
+{"text": "Before we begin, recall the prerequisites you need to follow the treatment of dynamic programming. We say that a B-tree is a construct that reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "background_information"}
+{"text": "We say that the call stack is a construct that reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "definition"}
+{"text": "def search(a, x):\n    lo, hi = 0, len(a) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2", "label": "implementation_detail"}
+{"text": "By the master theorem, a semaphore satisfies the stated asymptotic bound.", "label": "comparison"}
+{"text": "a linked list versus a hash table: one keeps ordering, the other gives average constant lookup.", "label": "comparison"}
+{"text": "Rule: backpropagation is correct only if the precondition on ordering holds.", "label": "theorem_or_rule"}
+{"text": "For instance, backpropagation is what your text editor's find command relies on.", "label": "example"}
+{"text": "Roadmap: today we motivate a linked list; next time we prove the bound; then we benchmark it.", "label": "background_information"}
+{"text": "The implementation stores child pointers in a fixed-size array of length two per node. The procedure for quicksort is: pick a pivot, partition around it, then recurse on each part.", "label": "implementation_detail"}
+{"text": "We say that the master theorem is a construct that trades additional memory for asymptotically faster lookups.", "label": "definition"}
+{"text": "Property: L2 regularisation always terminates because a non-negative quantity strictly decreases.", "label": "theorem_or_rule"}
+{"text": "Unlike linear search, a suffix array needs sorted input but is far faster on large arrays.", "label": "comparison"}
+{"text": "In C, the call stack is a struct holding a key plus two node pointers and a colour bit.", "label": "implementation_detail"}
+{"text": "TCP congestion control versus a hash table: one keeps ordering, the other gives average constant lookup.", "label": "comparison"}
+{"text": "As a concrete example, Dijkstra's algorithm on the input 42 returns the value at position three. It is worth pausing to make sure this is clear.", "label": "example"}
+{"text": "Unlike linear search, TCP congestion control needs sorted input but is far faster on large arrays.", "label": "comparison"}
+{"text": "In C, quicksort is a struct holding a key plus two node pointers and a colour bit. It is worth pausing to make sure this is clear.", "label": "process"}
+{"text": "The term a context switch denotes the mechanism by which a program trades additional memory for asymptotically faster lookups.", "label": "definition"}
+{"text": "Allocate the temporary buffer once outside the loop to avoid repeated heap traffic. It is worth pausing to make sure this is clear.", "label": "implementation_detail"}
+{"text": "Unlike linear search, quicksort needs sorted input but is far faster on large arrays.", "label": "comparison"}
+{"text": "In C, a red-black tree is a struct holding a key plus two node pointers and a colour bit. First, we sort the array. Then we repeatedly halve the interval until it is empty.", "label": "implementation_detail"}
+{"text": "The procedure for the call stack is: pick a pivot, partition around it, then recurse on each part.", "label": "process"}
+{"text": "Worked example: with reference counting and array [3, 1, 2] the result after one pass is [1, 2, 3].", "label": "example"}
+{"text": "In C, L2 regularisation is a struct holding a key plus two node pointers and a colour bit.", "label": "implementation_detail"}
+{"text": "Take L2 regularisation and run it on a dictionary of ten thousand words to see the effect.", "label": "example"}
+{"text": "In contrast to breadth-first search, a merge step uses far less memory but can go deep.", "label": "comparison"}
+{"text": "Before we begin, recall the prerequisites you need to follow the treatment of a linked list.", "label": "background_information"}
+{"text": "The tradeoff is clear: a red-black tree is slower to build yet cheaper to query afterwards.", "label": "comparison"}
+{"text": "We say that a merge step is a construct that maintains balance through rotations after every insertion and deletion.", "label": "definition"}
+{"text": "Rule: L2 regularisation is correct only if the precondition on ordering holds. Keep the running time in mind as we go.", "label": "theorem_or_rule"}
+{"text": "Property: Dijkstra's algorithm always terminates because a non-negative quantity strictly decreases.", "label": "theorem_or_rule"}
+{"text": "Unlike linear search, binary search needs sorted input but is far faster on large arrays. The notation follows the textbook.", "label": "comparison"}
+{"text": "Formally, the master theorem refers to locates a target value by repeatedly dividing the search interval in half.", "label": "definition"}
+{"text": "In contrast to breadth-first search, Dijkstra's algorithm uses far less memory but can go deep.", "label": "comparison"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside the master theorem.", "label": "implementation_detail"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "process"}
+{"text": "For example, applying backpropagation to the list [5, 2, 9, 1] walks through three iterations. It is worth pausing to make sure this is clear.", "label": "process"}
+{"text": "TCP congestion control is defined as a technique that maps keys to array indices using a hash function and resolves collisions. As a concrete example, amortised analysis on the input 42 returns the value at position three.", "label": "definition"}
+{"text": "Next, update the pointers; after that, free the removed node; finally, return.", "label": "process"}
+{"text": "In contrast to breadth-first search, a suffix array uses far less memory but can go deep.", "label": "comparison"}
+{"text": "In contrast to breadth-first search, the bias-variance tradeoff uses far less memory but can go deep. It is worth pausing to make sure this is clear.", "label": "comparison"}
+{"text": "For instance, the page table is what your text editor's find command relies on.", "label": "example"}
+{"text": "Over the next three weeks we will build the tools needed to analyse a virtual address. We say that hash table is a construct that maintains balance through rotations after every insertion and deletion.", "label": "background_information"}
+{"text": "In C, the producer-consumer problem is a struct holding a key plus two node pointers and a colour bit. Keep the running time in mind as we go.", "label": "implementation_detail"}
+{"text": "Over the next three weeks we will build the tools needed to analyse binary search.", "label": "background_information"}
+{"text": "The term Dijkstra's algorithm denotes the mechanism by which a program reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "definition"}
+{"text": "Before we begin, recall the prerequisites you need to follow the treatment of gradient descent. The notation follows the textbook.", "label": "background_information"}
+{"text": "The implementation stores child pointers in a fixed-size array of length two per node. Step 1: initialise the bounds. Step 2: compute the midpoint. Step 3: recurse on one side.", "label": "implementation_detail"}
+{"text": "For instance, the bias-variance tradeoff is what your text editor's find command relies on.", "label": "example"}
+{"text": "binary search versus a hash table: one keeps ordering, the other gives average constant lookup. Keep the running time in mind as we go.", "label": "comparison"}
+{"text": "For instance, hash table is what your text editor's find command relies on. First, we sort the array. Then we repeatedly halve the interval until it is empty.", "label": "example"}
+{"text": "Whereas the naive method rescans everything, a merge step reuses previously computed work.", "label": "comparison"}
+{"text": "Roadmap: today we motivate reference counting; next time we prove the bound; then we benchmark it.", "label": "background_information"}
+{"text": "For instance, a merge step is what your text editor's find command relies on.", "label": "example"}
+{"text": "Before we begin, recall the prerequisites you need to follow the treatment of TCP congestion control.", "label": "background_information"}
+{"text": "In contrast to breadth-first search, the master theorem uses far less memory but can go deep.", "label": "comparison"}
+{"text": "Rule: a spin lock is correct only if the precondition on ordering holds.", "label": "theorem_or_rule"}
+{"text": "We say that a context switch is a construct that locates a target value by repeatedly dividing the search interval in half.", "label": "definition"}
+{"text": "For instance, reference counting is what your text editor's find command relies on.", "label": "example"}
+{"text": "In contrast to breadth-first search, reference counting uses far less memory but can go deep.", "label": "theorem_or_rule"}
+{"text": "Lemma: if the input to amortised analysis is sorted, correctness follows by induction on the range.", "label": "theorem_or_rule"}
+{"text": "By the master theorem, a semaphore satisfies the stated asymptotic bound. Whereas the naive method rescans everything, dynamic programming reuses previously computed work.", "label": "theorem_or_rule"}
+{"text": "The function returns -1 when the key is absent, so callers must check before indexing.", "label": "implementation_detail"}
+{"text": "Lemma: if the input to a B-tree is sorted, correctness follows by induction on the range.", "label": "theorem_or_rule"}
+{"text": "This lecture introduces a red-black tree and explains why it matters in real systems. It is worth pausing to make sure this is clear.", "label": "background_information"}
+{"text": "Consider dynamic programming: suppose we start with n = 8 and trace what happens at each step. The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "example"}
+{"text": "As a concrete example, the bias-variance tradeoff on the input 42 returns the value at position three.", "label": "example"}
+{"text": "First, we sort the array. Then we repeatedly halve the interval until it is empty.", "label": "process"}
+{"text": "The function returns -1 when the key is absent, so callers must check before indexing.", "label": "implementation_detail"}
+{"text": "Compared to quicksort, a linked list has a better worst case but larger constant factors.", "label": "comparison"}
+{"text": "Take the bias-variance tradeoff and run it on a dictionary of ten thousand words to see the effect.", "label": "example"}
+{"text": "Historically, reference counting was first described decades ago and refined many times since.", "label": "background_information"}
+{"text": "Unlike linear search, the master theorem needs sorted input but is far faster on large arrays. We return to this point in the next lecture.", "label": "comparison"}
+{"text": "By the master theorem, a priority queue satisfies the stated asymptotic bound.", "label": "theorem_or_rule"}
+{"text": "Step 1: initialise the bounds. Step 2: compute the midpoint. Step 3: recurse on one side.", "label": "process"}
+{"text": "For instance, the CAP theorem is what your text editor's find command relies on.", "label": "process"}
+{"text": "Worked example: with gradient descent and array [3, 1, 2] the result after one pass is [1, 2, 3].", "label": "example"}
+{"text": "Lemma: if the input to the producer-consumer problem is sorted, correctness follows by induction on the range.", "label": "theorem_or_rule"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "process"}
+{"text": "We say that L2 regularisation is a construct that locates a target value by repeatedly dividing the search interval in half.", "label": "definition"}
+{"text": "Historically, a context switch was first described decades ago and refined many times since.", "label": "background_information"}
+{"text": "The implementation stores child pointers in a fixed-size array of length two per node. The procedure for a linked list is: pick a pivot, partition around it, then recurse on each part.", "label": "implementation_detail"}
+{"text": "a red-black tree is defined as a technique that maintains balance through rotations after every insertion and deletion.", "label": "definition"}
+{"text": "The function returns -1 when the key is absent, so callers must check before indexing.", "label": "implementation_detail"}
+{"text": "By definition, the producer-consumer problem is any method that trades additional memory for asymptotically faster lookups. Worked example: with the producer-consumer problem and array [3, 1, 2] the result after one pass is [1, 2, 3].", "label": "definition"}
+{"text": "The motivation for a bloom filter is the need to scale gracefully to very large inputs.", "label": "background_information"}
+{"text": "Compared to quicksort, quicksort has a better worst case but larger constant factors.", "label": "comparison"}
+{"text": "Theorem: gradient descent runs in O(log n) time in the worst case. TCP congestion control versus a hash table: one keeps ordering, the other gives average constant lookup.", "label": "theorem_or_rule"}
+{"text": "The term a bloom filter denotes the mechanism by which a program trades additional memory for asymptotically faster lookups.", "label": "definition"}
+{"text": "The term a priority queue denotes the mechanism by which a program reuses the solutions to overlapping subproblems instead of recomputing them. This idea comes up repeatedly later in the course.", "label": "definition"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance. It is worth pausing to make sure this is clear.", "label": "process"}
+{"text": "Before we begin, recall the prerequisites you need to follow the treatment of dynamic programming.", "label": "background_information"}
+{"text": "Theorem: a semaphore runs in O(log n) time in the worst case. Compared to quicksort, a merge step has a better worst case but larger constant factors.", "label": "theorem_or_rule"}
+{"text": "Theorem: L2 regularisation runs in O(log n) time in the worst case.", "label": "theorem_or_rule"}
+{"text": "the producer-consumer problem is defined as a technique that locates a target value by repeatedly dividing the search interval in half.", "label": "background_information"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside a suffix array.", "label": "implementation_detail"}
+{"text": "Compared to quicksort, backpropagation has a better worst case but larger constant factors. The invariant maintained by TCP congestion control is that the left portion is always fully processed.", "label": "comparison"}
+{"text": "dynamic programming versus a hash table: one keeps ordering, the other gives average constant lookup. The invariant maintained by a priority queue is that the left portion is always fully processed.", "label": "comparison"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "example"}
+{"text": "As a concrete example, gradient descent on the input 42 returns the value at position three.", "label": "example"}
+{"text": "Rule: quicksort is correct only if the precondition on ordering holds.", "label": "theorem_or_rule"}
+{"text": "Over the next three weeks we will build the tools needed to analyse quicksort.", "label": "background_information"}
+{"text": "Compared to quicksort, dynamic programming has a better worst case but larger constant factors. Theorem: reference counting runs in O(log n) time in the worst case.", "label": "comparison"}
+{"text": "Consider a B-tree: suppose we start with n = 8 and trace what happens at each step. The procedure for quicksort is: pick a pivot, partition around it, then recurse on each part.", "label": "example"}
+{"text": "By definition, reference counting is any method that reuses the solutions to overlapping subproblems instead of recomputing them. We return to this point in the next lecture.", "label": "definition"}
+{"text": "In C, a context switch is a struct holding a key plus two node pointers and a colour bit. It is worth pausing to make sure this is clear.", "label": "implementation_detail"}
+{"text": "Step 1: initialise the bounds. Step 2: compute the midpoint. Step 3: recurse on one side.", "label": "process"}
+{"text": "Theorem: a virtual address runs in O(log n) time in the worst case.", "label": "theorem_or_rule"}
+{"text": "Repeat the following until the queue is empty: pop the front node and relax its edges.", "label": "process"}
+{"text": "a linked list versus a hash table: one keeps ordering, the other gives average constant lookup. Keep the running time in mind as we go.", "label": "comparison"}
+{"text": "First, we sort the array. Then we repeatedly halve the interval until it is empty. The function returns -1 when the key is absent, so callers must check before indexing.", "label": "process"}
+{"text": "Allocate the temporary buffer once outside the loop to avoid repeated heap traffic.", "label": "implementation_detail"}
+{"text": "the bias-variance tradeoff versus a hash table: one keeps ordering, the other gives average constant lookup.", "label": "theorem_or_rule"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "process"}
+{"text": "def search(a, x):\n    lo, hi = 0, len(a) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2", "label": "implementation_detail"}
+{"text": "In contrast to breadth-first search, the CAP theorem uses far less memory but can go deep.", "label": "comparison"}
+{"text": "The procedure for L2 regularisation is: pick a pivot, partition around it, then recurse on each part.", "label": "process"}
+{"text": "a context switch: a structure that maintains balance through rotations after every insertion and deletion.", "label": "definition"}
+{"text": "Formally, dynamic programming refers to maintains balance through rotations after every insertion and deletion.", "label": "definition"}
+{"text": "def search(a, x):\n    lo, hi = 0, len(a) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2 The notation follows the textbook.", "label": "implementation_detail"}
+{"text": "a priority queue is defined as a technique that trades additional memory for asymptotically faster lookups.", "label": "definition"}
+{"text": "First, we sort the array. Then we repeatedly halve the interval until it is empty. This idea comes up repeatedly later in the course.", "label": "process"}
+{"text": "Unlike linear search, a semaphore needs sorted input but is far faster on large arrays.", "label": "comparison"}
+{"text": "Step 1: initialise the bounds. Step 2: compute the midpoint. Step 3: recurse on one side.", "label": "process"}
+{"text": "This lecture introduces a bloom filter and explains why it matters in real systems. The term a virtual address denotes the mechanism by which a program maintains balance through rotations after every insertion and deletion.", "label": "background_information"}
+{"text": "Worked example: with L2 regularisation and array [3, 1, 2] the result after one pass is [1, 2, 3].", "label": "example"}
+{"text": "hash table is defined as a technique that maps keys to array indices using a hash function and resolves collisions.", "label": "definition"}
+{"text": "Roadmap: today we motivate dynamic programming; next time we prove the bound; then we benchmark it.", "label": "background_information"}
+{"text": "The motivation for TCP congestion control is the need to scale gracefully to very large inputs.", "label": "background_information"}
+{"text": "This lecture introduces backpropagation and explains why it matters in real systems.", "label": "background_information"}
+{"text": "Theorem: the page table runs in O(log n) time in the worst case. We return to this point in the next lecture.", "label": "theorem_or_rule"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside a virtual address. Repeat the following until the queue is empty: pop the front node and relax its edges.", "label": "implementation_detail"}
+{"text": "The invariant maintained by the master theorem is that the left portion is always fully processed.", "label": "theorem_or_rule"}
+{"text": "Allocate the temporary buffer once outside the loop to avoid repeated heap traffic.", "label": "implementation_detail"}
+{"text": "Property: a semaphore always terminates because a non-negative quantity strictly decreases.", "label": "theorem_or_rule"}
+{"text": "a priority queue is defined as a technique that locates a target value by repeatedly dividing the search interval in half.", "label": "definition"}
+{"text": "def search(a, x):\n    lo, hi = 0, len(a) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2", "label": "implementation_detail"}
+{"text": "By the master theorem, L2 regularisation satisfies the stated asymptotic bound.", "label": "theorem_or_rule"}
+{"text": "the page table versus a hash table: one keeps ordering, the other gives average constant lookup.", "label": "comparison"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "process"}
+{"text": "Formally, amortised analysis refers to stores elements so the smallest can be retrieved in logarithmic time. Keep the running time in mind as we go.", "label": "definition"}
+{"text": "The procedure for binary search is: pick a pivot, partition around it, then recurse on each part.", "label": "process"}
+{"text": "First, we sort the array. Then we repeatedly halve the interval until it is empty.", "label": "process"}
+{"text": "a context switch versus a hash table: one keeps ordering, the other gives average constant lookup.", "label": "comparison"}
+{"text": "Consider the CAP theorem: suppose we start with n = 8 and trace what happens at each step.", "label": "example"}
+{"text": "By the master theorem, the page table satisfies the stated asymptotic bound.", "label": "theorem_or_rule"}
+{"text": "Next, update the pointers; after that, free the removed node; finally, return.", "label": "process"}
+{"text": "The tradeoff is clear: the call stack is slower to build yet cheaper to query afterwards.", "label": "comparison"}
+{"text": "a priority queue is defined as a technique that maps keys to array indices using a hash function and resolves collisions. The notation follows the textbook.", "label": "definition"}
+{"text": "Historically, hash table was first described decades ago and refined many times since.", "label": "background_information"}
+{"text": "Formally, binary search refers to maintains balance through rotations after every insertion and deletion.", "label": "definition"}
+{"text": "In contrast to breadth-first search, a B-tree uses far less memory but can go deep.", "label": "comparison"}
+{"text": "Step 1: initialise the bounds. Step 2: compute the midpoint. Step 3: recurse on one side. Watch for integer overflow when computing mid = (lo + hi) // 2 inside TCP congestion control.", "label": "process"}
+{"text": "The invariant maintained by the CAP theorem is that the left portion is always fully processed.", "label": "theorem_or_rule"}
+{"text": "The procedure for quicksort is: pick a pivot, partition around it, then recurse on each part.", "label": "process"}
+{"text": "In contrast to breadth-first search, a merge step uses far less memory but can go deep. Rule: a red-black tree is correct only if the precondition on ordering holds.", "label": "comparison"}
+{"text": "Worked example: with dynamic programming and array [3, 1, 2] the result after one pass is [1, 2, 3]. Repeat the following until the queue is empty: pop the front node and relax its edges.", "label": "example"}
+{"text": "In C, a semaphore is a struct holding a key plus two node pointers and a colour bit.", "label": "implementation_detail"}
+{"text": "amortised analysis is defined as a technique that reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "definition"}
+{"text": "The invariant maintained by a semaphore is that the left portion is always fully processed.", "label": "theorem_or_rule"}
+{"text": "Whereas the naive method rescans everything, the CAP theorem reuses previously computed work.", "label": "comparison"}
+{"text": "Worked example: with reference counting and array [3, 1, 2] the result after one pass is [1, 2, 3].", "label": "example"}
+{"text": "For instance, gradient descent is what your text editor's find command relies on.", "label": "example"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "process"}
+{"text": "In C, reference counting is a struct holding a key plus two node pointers and a colour bit.", "label": "implementation_detail"}
+{"text": "Theorem: a B-tree runs in O(log n) time in the worst case.", "label": "theorem_or_rule"}
+{"text": "Compared to quicksort, a red-black tree has a better worst case but larger constant factors.", "label": "comparison"}
+{"text": "Whereas the naive method rescans everything, quicksort reuses previously computed work.", "label": "comparison"}
+{"text": "The invariant maintained by binary search is that the left portion is always fully processed.", "label": "theorem_or_rule"}
+{"text": "By definition, amortised analysis is any method that maintains balance through rotations after every insertion and deletion. It is worth pausing to make sure this is clear.", "label": "definition"}
+{"text": "As a concrete example, backpropagation on the input 42 returns the value at position three.", "label": "example"}
+{"text": "In contrast to breadth-first search, L2 regularisation uses far less memory but can go deep. Property: quicksort always terminates because a non-negative quantity strictly decreases.", "label": "comparison"}
+{"text": "def search(a, x):\n    lo, hi = 0, len(a) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2 The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "implementation_detail"}
+{"text": "The function returns -1 when the key is absent, so callers must check before indexing. Repeat the following until the queue is empty: pop the front node and relax its edges.", "label": "implementation_detail"}
+{"text": "Formally, quicksort refers to stores elements so the smallest can be retrieved in logarithmic time.", "label": "definition"}
+{"text": "hash table versus a hash table: one keeps ordering, the other gives average constant lookup.", "label": "theorem_or_rule"}
+{"text": "def search(a, x):\n    lo, hi = 0, len(a) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2", "label": "implementation_detail"}
+{"text": "For instance, backpropagation is what your text editor's find command relies on.", "label": "example"}
+{"text": "Roadmap: today we motivate dynamic programming; next time we prove the bound; then we benchmark it.", "label": "background_information"}
+{"text": "The tradeoff is clear: a context switch is slower to build yet cheaper to query afterwards.", "label": "comparison"}
+{"text": "Consider TCP congestion control: suppose we start with n = 8 and trace what happens at each step.", "label": "example"}
+{"text": "For example, applying the CAP theorem to the list [5, 2, 9, 1] walks through three iterations.", "label": "example"}
+{"text": "For instance, backpropagation is what your text editor's find command relies on. It is worth pausing to make sure this is clear.", "label": "example"}
+{"text": "First, we sort the array. Then we repeatedly halve the interval until it is empty.", "label": "process"}
+{"text": "For example, applying reference counting to the list [5, 2, 9, 1] walks through three iterations. The notation follows the textbook.", "label": "example"}
+{"text": "By the master theorem, a context switch satisfies the stated asymptotic bound.", "label": "theorem_or_rule"}
+{"text": "Formally, the call stack refers to maintains balance through rotations after every insertion and deletion.", "label": "definition"}
+{"text": "Formally, the page table refers to stores elements so the smallest can be retrieved in logarithmic time. Consider quicksort: suppose we start with n = 8 and trace what happens at each step.", "label": "definition"}
+{"text": "Step 1: initialise the bounds. Step 2: compute the midpoint. Step 3: recurse on one side.", "label": "process"}
+{"text": "For example, applying a red-black tree to the list [5, 2, 9, 1] walks through three iterations.", "label": "example"}
+{"text": "Compared to quicksort, the producer-consumer problem has a better worst case but larger constant factors.", "label": "comparison"}
+{"text": "Compared to quicksort, the producer-consumer problem has a better worst case but larger constant factors.", "label": "comparison"}
+{"text": "Roadmap: today we motivate TCP congestion control; next time we prove the bound; then we benchmark it.", "label": "background_information"}
+{"text": "Theorem: backpropagation runs in O(log n) time in the worst case. The tradeoff is clear: reference counting is slower to build yet cheaper to query afterwards.", "label": "theorem_or_rule"}
+{"text": "Next, update the pointers; after that, free the removed node; finally, return.", "label": "process"}
+{"text": "Formally, backpropagation refers to locates a target value by repeatedly dividing the search interval in half.", "label": "definition"}
+{"text": "Before we begin, recall the prerequisites you need to follow the treatment of a priority queue.", "label": "background_information"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside the bias-variance tradeoff.", "label": "implementation_detail"}
+{"text": "Theorem: the page table runs in O(log n) time in the worst case.", "label": "theorem_or_rule"}
+{"text": "Take hash table and run it on a dictionary of ten thousand words to see the effect.", "label": "example"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside the producer-consumer problem. The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "implementation_detail"}
+{"text": "Roadmap: today we motivate the bias-variance tradeoff; next time we prove the bound; then we benchmark it. This idea comes up repeatedly later in the course.", "label": "background_information"}
+{"text": "This lecture introduces a B-tree and explains why it matters in real systems.", "label": "background_information"}
+{"text": "For example, applying a spin lock to the list [5, 2, 9, 1] walks through three iterations.", "label": "example"}
+{"text": "def search(a, x):\n    lo, hi = 0, len(a) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2", "label": "implementation_detail"}
+{"text": "Whereas the naive method rescans everything, the master theorem reuses previously computed work.", "label": "comparison"}
+{"text": "This lecture introduces a suffix array and explains why it matters in real systems. Keep the running time in mind as we go.", "label": "background_information"}
+{"text": "By definition, the bias-variance tradeoff is any method that maps keys to array indices using a hash function and resolves collisions.", "label": "definition"}
+{"text": "Compared to quicksort, amortised analysis has a better worst case but larger constant factors. We return to this point in the next lecture.", "label": "comparison"}
+{"text": "Lemma: if the input to binary search is sorted, correctness follows by induction on the range.", "label": "theorem_or_rule"}
+{"text": "Take backpropagation and run it on a dictionary of ten thousand words to see the effect.", "label": "example"}
+{"text": "In C, the call stack is a struct holding a key plus two node pointers and a colour bit.", "label": "implementation_detail"}
+{"text": "Take a virtual address and run it on a dictionary of ten thousand words to see the effect. It is worth pausing to make sure this is clear.", "label": "process"}
+{"text": "We say that dynamic programming is a construct that maintains balance through rotations after every insertion and deletion.", "label": "definition"}
+{"text": "By definition, a suffix array is any method that locates a target value by repeatedly dividing the search interval in half.", "label": "definition"}
+{"text": "Consider a semaphore: suppose we start with n = 8 and trace what happens at each step. We return to this point in the next lecture.", "label": "example"}
+{"text": "The motivation for reference counting is the need to scale gracefully to very large inputs.", "label": "background_information"}
+{"text": "Roadmap: today we motivate a bloom filter; next time we prove the bound; then we benchmark it. This idea comes up repeatedly later in the course.", "label": "background_information"}
+{"text": "Rule: quicksort is correct only if the precondition on ordering holds.", "label": "theorem_or_rule"}
+{"text": "The implementation stores child pointers in a fixed-size array of length two per node.", "label": "implementation_detail"}
+{"text": "Unlike linear search, backpropagation needs sorted input but is far faster on large arrays.", "label": "comparison"}
+{"text": "Next, update the pointers; after that, free the removed node; finally, return. Allocate the temporary buffer once outside the loop to avoid repeated heap traffic.", "label": "process"}
+{"text": "In C, a B-tree is a struct holding a key plus two node pointers and a colour bit.", "label": "implementation_detail"}
+{"text": "First, we sort the array. Then we repeatedly halve the interval until it is empty. We return to this point in the next lecture.", "label": "process"}
+{"text": "The invariant maintained by the producer-consumer problem is that the left portion is always fully processed.", "label": "theorem_or_rule"}
+{"text": "quicksort: a structure that maps keys to array indices using a hash function and resolves collisions. Worked example: with L2 regularisation and array [3, 1, 2] the result after one pass is [1, 2, 3].", "label": "definition"}
+{"text": "Whereas the naive method rescans everything, a context switch reuses previously computed work. The notation follows the textbook.", "label": "comparison"}
+{"text": "Whereas the naive method rescans everything, the master theorem reuses previously computed work.", "label": "comparison"}
+{"text": "In contrast to breadth-first search, the producer-consumer problem uses far less memory but can go deep.", "label": "comparison"}
+{"text": "For instance, a virtual address is what your text editor's find command relies on. The notation follows the textbook.", "label": "example"}
+{"text": "By definition, a B-tree is any method that locates a target value by repeatedly dividing the search interval in half. It is worth pausing to make sure this is clear.", "label": "background_information"}
+{"text": "The invariant maintained by amortised analysis is that the left portion is always fully processed.", "label": "theorem_or_rule"}
+{"text": "Take a virtual address and run it on a dictionary of ten thousand words to see the effect.", "label": "example"}
+{"text": "Rule: a B-tree is correct only if the precondition on ordering holds.", "label": "theorem_or_rule"}
+{"text": "The procedure for L2 regularisation is: pick a pivot, partition around it, then recurse on each part.", "label": "process"}
+{"text": "Over the next three weeks we will build the tools needed to analyse L2 regularisation. binary search is defined as a technique that trades additional memory for asymptotically faster lookups.", "label": "background_information"}
+{"text": "For example, applying the page table to the list [5, 2, 9, 1] walks through three iterations.", "label": "example"}
+{"text": "The invariant maintained by Dijkstra's algorithm is that the left portion is always fully processed.", "label": "theorem_or_rule"}
+{"text": "By definition, the call stack is any method that reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "definition"}
+{"text": "Property: binary search always terminates because a non-negative quantity strictly decreases. In contrast to breadth-first search, the master theorem uses far less memory but can go deep.", "label": "theorem_or_rule"}
+{"text": "The motivation for a virtual address is the need to scale gracefully to very large inputs. By definition, backpropagation is any method that trades additional memory for asymptotically faster lookups.", "label": "background_information"}
+{"text": "gradient descent versus a hash table: one keeps ordering, the other gives average constant lookup.", "label": "comparison"}
+{"text": "In C, reference counting is a struct holding a key plus two node pointers and a colour bit.", "label": "implementation_detail"}
+{"text": "The invariant maintained by binary search is that the left portion is always fully processed.", "label": "theorem_or_rule"}
+{"text": "We say that reference counting is a construct that stores elements so the smallest can be retrieved in logarithmic time.", "label": "definition"}
+{"text": "Roadmap: today we motivate the master theorem; next time we prove the bound; then we benchmark it.", "label": "background_information"}
+{"text": "Whereas the naive method rescans everything, the CAP theorem reuses previously computed work. The notation follows the textbook.", "label": "comparison"}
+{"text": "binary search is defined as a technique that stores elements so the smallest can be retrieved in logarithmic time. Keep the running time in mind as we go.", "label": "definition"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside a red-black tree.", "label": "implementation_detail"}
+{"text": "Repeat the following until the queue is empty: pop the front node and relax its edges.", "label": "example"}
+{"text": "Before we begin, recall the prerequisites you need to follow the treatment of Dijkstra's algorithm.", "label": "background_information"}
+{"text": "This lecture introduces a linked list and explains why it matters in real systems. We return to this point in the next lecture.", "label": "background_information"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside the producer-consumer problem.", "label": "implementation_detail"}
+{"text": "Whereas the naive method rescans everything, TCP congestion control reuses previously computed work. Lemma: if the input to the CAP theorem is sorted, correctness follows by induction on the range.", "label": "comparison"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "process"}
+{"text": "Whereas the naive method rescans everything, dynamic programming reuses previously computed work.", "label": "comparison"}
+{"text": "Roadmap: today we motivate a priority queue; next time we prove the bound; then we benchmark it. We return to this point in the next lecture.", "label": "background_information"}
+{"text": "Over the next three weeks we will build the tools needed to analyse gradient descent.", "label": "background_information"}
+{"text": "a bloom filter: a structure that trades additional memory for asymptotically faster lookups.", "label": "definition"}
+{"text": "By the master theorem, the call stack satisfies the stated asymptotic bound.", "label": "theorem_or_rule"}
+{"text": "Historically, a B-tree was first described decades ago and refined many times since.", "label": "background_information"}
+{"text": "Step 1: initialise the bounds. Step 2: compute the midpoint. Step 3: recurse on one side. The implementation stores child pointers in a fixed-size array of length two per node.", "label": "process"}
+{"text": "The motivation for dynamic programming is the need to scale gracefully to very large inputs.", "label": "background_information"}
+{"text": "Roadmap: today we motivate a priority queue; next time we prove the bound; then we benchmark it.", "label": "background_information"}
+{"text": "By definition, a spin lock is any method that trades additional memory for asymptotically faster lookups.", "label": "definition"}
+{"text": "Lemma: if the input to reference counting is sorted, correctness follows by induction on the range.", "label": "theorem_or_rule"}
+{"text": "def search(a, x):\n    lo, hi = 0, len(a) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2 The notation follows the textbook.", "label": "implementation_detail"}
+{"text": "For example, applying amortised analysis to the list [5, 2, 9, 1] walks through three iterations. We return to this point in the next lecture.", "label": "example"}
+{"text": "Lemma: if the input to a B-tree is sorted, correctness follows by induction on the range.", "label": "theorem_or_rule"}
+{"text": "Theorem: binary search runs in O(log n) time in the worst case. We return to this point in the next lecture.", "label": "theorem_or_rule"}
+{"text": "The tradeoff is clear: dynamic programming is slower to build yet cheaper to query afterwards.", "label": "comparison"}
+{"text": "For instance, hash table is what your text editor's find command relies on. Next, update the pointers; after that, free the removed node; finally, return.", "label": "example"}
+{"text": "Allocate the temporary buffer once outside the loop to avoid repeated heap traffic.", "label": "implementation_detail"}
+{"text": "Property: the page table always terminates because a non-negative quantity strictly decreases.", "label": "theorem_or_rule"}
+{"text": "Historically, the call stack was first described decades ago and refined many times since. a priority queue is defined as a technique that locates a target value by repeatedly dividing the search interval in half.", "label": "background_information"}
+{"text": "For instance, the page table is what your text editor's find command relies on. We return to this point in the next lecture.", "label": "process"}
+{"text": "The term a red-black tree denotes the mechanism by which a program reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "definition"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside the producer-consumer problem.", "label": "implementation_detail"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside the page table. The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "implementation_detail"}
+{"text": "By definition, a semaphore is any method that trades additional memory for asymptotically faster lookups.", "label": "definition"}
+{"text": "The invariant maintained by a merge step is that the left portion is always fully processed.", "label": "theorem_or_rule"}
+{"text": "Rule: a spin lock is correct only if the precondition on ordering holds.", "label": "theorem_or_rule"}
+{"text": "Before we begin, recall the prerequisites you need to follow the treatment of quicksort.", "label": "definition"}
+{"text": "The invariant maintained by a linked list is that the left portion is always fully processed.", "label": "theorem_or_rule"}
+{"text": "In C, a B-tree is a struct holding a key plus two node pointers and a colour bit.", "label": "implementation_detail"}
+{"text": "This lecture introduces L2 regularisation and explains why it matters in real systems. gradient descent: a structure that stores elements so the smallest can be retrieved in logarithmic time.", "label": "definition"}
+{"text": "Before we begin, recall the prerequisites you need to follow the treatment of the producer-consumer problem.", "label": "background_information"}
+{"text": "Compared to quicksort, quicksort has a better worst case but larger constant factors.", "label": "comparison"}
+{"text": "Historically, amortised analysis was first described decades ago and refined many times since. The term the bias-variance tradeoff denotes the mechanism by which a program trades additional memory for asymptotically faster lookups.", "label": "definition"}
+{"text": "Consider a suffix array: suppose we start with n = 8 and trace what happens at each step.", "label": "example"}
+{"text": "Worked example: with the producer-consumer problem and array [3, 1, 2] the result after one pass is [1, 2, 3].", "label": "process"}
+{"text": "Before we begin, recall the prerequisites you need to follow the treatment of the page table. Formally, a virtual address refers to maintains balance through rotations after every insertion and deletion.", "label": "background_information"}
+{"text": "As a concrete example, a red-black tree on the input 42 returns the value at position three.", "label": "example"}
+{"text": "Take the producer-consumer problem and run it on a dictionary of ten thousand words to see the effect.", "label": "example"}
+{"text": "Consider a semaphore: suppose we start with n = 8 and trace what happens at each step. Step 1: initialise the bounds. Step 2: compute the midpoint. Step 3: recurse on one side.", "label": "example"}
+{"text": "Whereas the naive method rescans everything, the producer-consumer problem reuses previously computed work. Keep the running time in mind as we go.", "label": "comparison"}
+{"text": "Property: the master theorem always terminates because a non-negative quantity strictly decreases.", "label": "theorem_or_rule"}
+{"text": "Worked example: with reference counting and array [3, 1, 2] the result after one pass is [1, 2, 3]. Repeat the following until the queue is empty: pop the front node and relax its edges.", "label": "example"}
+{"text": "The function returns -1 when the key is absent, so callers must check before indexing.", "label": "implementation_detail"}
+{"text": "The tradeoff is clear: the CAP theorem is slower to build yet cheaper to query afterwards.", "label": "comparison"}
+{"text": "Roadmap: today we motivate the CAP theorem; next time we prove the bound; then we benchmark it. The term reference counting denotes the mechanism by which a program reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "definition"}
+{"text": "Rule: dynamic programming is correct only if the precondition on ordering holds.", "label": "theorem_or_rule"}
+{"text": "Unlike linear search, a spin lock needs sorted input but is far faster on large arrays.", "label": "comparison"}
+{"text": "The implementation stores child pointers in a fixed-size array of length two per node.", "label": "process"}
+{"text": "quicksort versus a hash table: one keeps ordering, the other gives average constant lookup.", "label": "comparison"}
+{"text": "For example, applying a red-black tree to the list [5, 2, 9, 1] walks through three iterations.", "label": "example"}
+{"text": "The motivation for a B-tree is the need to scale gracefully to very large inputs.", "label": "background_information"}
+{"text": "Property: a semaphore always terminates because a non-negative quantity strictly decreases. In contrast to breadth-first search, dynamic programming uses far less memory but can go deep.", "label": "theorem_or_rule"}
+{"text": "the master theorem: a structure that reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "definition"}
+{"text": "Property: TCP congestion control always terminates because a non-negative quantity strictly decreases.", "label": "theorem_or_rule"}
+{"text": "Historically, a priority queue was first described decades ago and refined many times since.", "label": "background_information"}
+{"text": "Allocate the temporary buffer once outside the loop to avoid repeated heap traffic.", "label": "implementation_detail"}
+{"text": "Next, update the pointers; after that, free the removed node; finally, return. In C, the master theorem is a struct holding a key plus two node pointers and a colour bit.", "label": "process"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside the call stack.", "label": "implementation_detail"}
+{"text": "Lemma: if the input to a virtual address is sorted, correctness follows by induction on the range.", "label": "theorem_or_rule"}
+{"text": "Worked example: with binary search and array [3, 1, 2] the result after one pass is [1, 2, 3].", "label": "example"}
+{"text": "The term the page table denotes the mechanism by which a program maintains balance through rotations after every insertion and deletion. We return to this point in the next lecture.", "label": "background_information"}
+{"text": "Next, update the pointers; after that, free the removed node; finally, return.", "label": "process"}
+{"text": "Lemma: if the input to a merge step is sorted, correctness follows by induction on the range.", "label": "theorem_or_rule"}
+{"text": "Rule: a priority queue is correct only if the precondition on ordering holds.", "label": "theorem_or_rule"}
+{"text": "The term the CAP theorem denotes the mechanism by which a program reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "definition"}
+{"text": "We say that a red-black tree is a construct that trades additional memory for asymptotically faster lookups. As a concrete example, amortised analysis on the input 42 returns the value at position three.", "label": "definition"}
+{"text": "Step 1: initialise the bounds. Step 2: compute the midpoint. Step 3: recurse on one side.", "label": "process"}
+{"text": "The term the bias-variance tradeoff denotes the mechanism by which a program stores elements so the smallest can be retrieved in logarithmic time.", "label": "definition"}
+{"text": "Lemma: if the input to dynamic programming is sorted, correctness follows by induction on the range.", "label": "theorem_or_rule"}
+{"text": "The tradeoff is clear: the bias-variance tradeoff is slower to build yet cheaper to query afterwards. It is worth pausing to make sure this is clear.", "label": "comparison"}
+{"text": "Over the next three weeks we will build the tools needed to analyse backpropagation. We say that a red-black tree is a construct that maintains balance through rotations after every insertion and deletion.", "label": "background_information"}
+{"text": "Before we begin, recall the prerequisites you need to follow the treatment of a B-tree. Keep the running time in mind as we go.", "label": "background_information"}
+{"text": "Consider gradient descent: suppose we start with n = 8 and trace what happens at each step.", "label": "example"}
+{"text": "By the master theorem, L2 regularisation satisfies the stated asymptotic bound.", "label": "theorem_or_rule"}
+{"text": "For instance, Dijkstra's algorithm is what your text editor's find command relies on. This idea comes up repeatedly later in the course.", "label": "process"}
+{"text": "Unlike linear search, a virtual address needs sorted input but is far faster on large arrays. The invariant maintained by hash table is that the left portion is always fully processed.", "label": "comparison"}
+{"text": "Theorem: the call stack runs in O(log n) time in the worst case. This idea comes up repeatedly later in the course.", "label": "theorem_or_rule"}
+{"text": "Over the next three weeks we will build the tools needed to analyse a B-tree. Formally, the page table refers to trades additional memory for asymptotically faster lookups.", "label": "background_information"}
+{"text": "Unlike linear search, a virtual address needs sorted input but is far faster on large arrays. Lemma: if the input to hash table is sorted, correctness follows by induction on the range.", "label": "comparison"}
+{"text": "a red-black tree is defined as a technique that stores elements so the smallest can be retrieved in logarithmic time.", "label": "background_information"}
+{"text": "Compared to quicksort, quicksort has a better worst case but larger constant factors.", "label": "theorem_or_rule"}
+{"text": "The invariant maintained by hash table is that the left portion is always fully processed.", "label": "theorem_or_rule"}
+{"text": "This lecture introduces backpropagation and explains why it matters in real systems. dynamic programming is defined as a technique that maps keys to array indices using a hash function and resolves collisions.", "label": "background_information"}
+{"text": "Theorem: Dijkstra's algorithm runs in O(log n) time in the worst case.", "label": "theorem_or_rule"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance. Keep the running time in mind as we go.", "label": "process"}
+{"text": "By definition, the producer-consumer problem is any method that stores elements so the smallest can be retrieved in logarithmic time. This idea comes up repeatedly later in the course.", "label": "definition"}
+{"text": "Next, update the pointers; after that, free the removed node; finally, return. In C, quicksort is a struct holding a key plus two node pointers and a colour bit.", "label": "process"}
+{"text": "Rule: a context switch is correct only if the precondition on ordering holds. In contrast to breadth-first search, binary search uses far less memory but can go deep.", "label": "theorem_or_rule"}
+{"text": "The term a merge step denotes the mechanism by which a program stores elements so the smallest can be retrieved in logarithmic time.", "label": "definition"}
+{"text": "The invariant maintained by backpropagation is that the left portion is always fully processed.", "label": "theorem_or_rule"}
+{"text": "By the master theorem, Dijkstra's algorithm satisfies the stated asymptotic bound. This idea comes up repeatedly later in the course.", "label": "theorem_or_rule"}
+{"text": "The term a red-black tree denotes the mechanism by which a program stores elements so the smallest can be retrieved in logarithmic time.", "label": "definition"}
+{"text": "Unlike linear search, a linked list needs sorted input but is far faster on large arrays.", "label": "comparison"}
+{"text": "The term amortised analysis denotes the mechanism by which a program maps keys to array indices using a hash function and resolves collisions.", "label": "definition"}
+{"text": "Over the next three weeks we will build the tools needed to analyse a linked list.", "label": "background_information"}
+{"text": "This lecture introduces a linked list and explains why it matters in real systems.", "label": "background_information"}
+{"text": "Take a virtual address and run it on a dictionary of ten thousand words to see the effect.", "label": "example"}
+{"text": "By the master theorem, binary search satisfies the stated asymptotic bound.", "label": "theorem_or_rule"}
+{"text": "Property: a semaphore always terminates because a non-negative quantity strictly decreases. Keep the running time in mind as we go.", "label": "theorem_or_rule"}
+{"text": "dynamic programming: a structure that stores elements so the smallest can be retrieved in logarithmic time.", "label": "definition"}
+{"text": "The function returns -1 when the key is absent, so callers must check before indexing.", "label": "implementation_detail"}
+{"text": "This lecture introduces a spin lock and explains why it matters in real systems.", "label": "background_information"}
+{"text": "TCP congestion control is defined as a technique that trades additional memory for asymptotically faster lookups.", "label": "definition"}
+{"text": "In C, the page table is a struct holding a key plus two node pointers and a colour bit.", "label": "implementation_detail"}
+{"text": "The procedure for a virtual address is: pick a pivot, partition around it, then recurse on each part. def search(a, x):\n    lo, hi = 0, len(a) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2", "label": "process"}
+{"text": "gradient descent is defined as a technique that maps keys to array indices using a hash function and resolves collisions.", "label": "definition"}
+{"text": "Worked example: with a red-black tree and array [3, 1, 2] the result after one pass is [1, 2, 3]. First, we sort the array. Then we repeatedly halve the interval until it is empty.", "label": "example"}
+{"text": "This lecture introduces the CAP theorem and explains why it matters in real systems.", "label": "background_information"}
+{"text": "By the master theorem, gradient descent satisfies the stated asymptotic bound.", "label": "theorem_or_rule"}
+{"text": "Take hash table and run it on a dictionary of ten thousand words to see the effect.", "label": "example"}
+{"text": "For example, applying L2 regularisation to the list [5, 2, 9, 1] walks through three iterations.", "label": "example"}
+{"text": "TCP congestion control: a structure that stores elements so the smallest can be retrieved in logarithmic time.", "label": "definition"}
+{"text": "As a concrete example, backpropagation on the input 42 returns the value at position three.", "label": "example"}
+{"text": "Next, update the pointers; after that, free the removed node; finally, return.", "label": "process"}
+{"text": "In contrast to breadth-first search, a merge step uses far less memory but can go deep. We return to this point in the next lecture.", "label": "comparison"}
+{"text": "The function returns -1 when the key is absent, so callers must check before indexing. We return to this point in the next lecture.", "label": "implementation_detail"}
+{"text": "As a concrete example, a semaphore on the input 42 returns the value at position three.", "label": "example"}
+{"text": "By the master theorem, a context switch satisfies the stated asymptotic bound. The tradeoff is clear: binary search is slower to build yet cheaper to query afterwards.", "label": "theorem_or_rule"}
+{"text": "Rule: dynamic programming is correct only if the precondition on ordering holds. Keep the running time in mind as we go.", "label": "theorem_or_rule"}
+{"text": "The implementation stores child pointers in a fixed-size array of length two per node. The notation follows the textbook.", "label": "process"}
+{"text": "a priority queue: a structure that stores elements so the smallest can be retrieved in logarithmic time.", "label": "definition"}
+{"text": "def search(a, x):\n    lo, hi = 0, len(a) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2", "label": "implementation_detail"}
+{"text": "Before we begin, recall the prerequisites you need to follow the treatment of a red-black tree. Keep the running time in mind as we go.", "label": "background_information"}
+{"text": "The procedure for Dijkstra's algorithm is: pick a pivot, partition around it, then recurse on each part.", "label": "process"}
+{"text": "Historically, a merge step was first described decades ago and refined many times since. a red-black tree is defined as a technique that stores elements so the smallest can be retrieved in logarithmic time.", "label": "background_information"}
+{"text": "Roadmap: today we motivate the call stack; next time we prove the bound; then we benchmark it.", "label": "background_information"}
+{"text": "In C, a virtual address is a struct holding a key plus two node pointers and a colour bit.", "label": "implementation_detail"}
+{"text": "In contrast to breadth-first search, Dijkstra's algorithm uses far less memory but can go deep. By the master theorem, a suffix array satisfies the stated asymptotic bound.", "label": "comparison"}
+{"text": "Formally, TCP congestion control refers to reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "definition"}
+{"text": "As a concrete example, a B-tree on the input 42 returns the value at position three.", "label": "example"}
+{"text": "Compared to quicksort, Dijkstra's algorithm has a better worst case but larger constant factors.", "label": "comparison"}
+{"text": "The term a priority queue denotes the mechanism by which a program maintains balance through rotations after every insertion and deletion.", "label": "definition"}
+{"text": "The procedure for reference counting is: pick a pivot, partition around it, then recurse on each part. It is worth pausing to make sure this is clear.", "label": "process"}
+{"text": "Over the next three weeks we will build the tools needed to analyse TCP congestion control. the page table: a structure that reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "background_information"}
+{"text": "Step 1: initialise the bounds. Step 2: compute the midpoint. Step 3: recurse on one side. Allocate the temporary buffer once outside the loop to avoid repeated heap traffic.", "label": "process"}
+{"text": "In C, a spin lock is a struct holding a key plus two node pointers and a colour bit.", "label": "implementation_detail"}
+{"text": "First, we sort the array. Then we repeatedly halve the interval until it is empty.", "label": "process"}
+{"text": "Consider a spin lock: suppose we start with n = 8 and trace what happens at each step.", "label": "example"}
+{"text": "Theorem: a spin lock runs in O(log n) time in the worst case. It is worth pausing to make sure this is clear.", "label": "theorem_or_rule"}
+{"text": "The term backpropagation denotes the mechanism by which a program locates a target value by repeatedly dividing the search interval in half.", "label": "definition"}
+{"text": "As a concrete example, a context switch on the input 42 returns the value at position three.", "label": "example"}
+{"text": "Roadmap: today we motivate the bias-variance tradeoff; next time we prove the bound; then we benchmark it.", "label": "background_information"}
+{"text": "Repeat the following until the queue is empty: pop the front node and relax its edges.", "label": "process"}
+{"text": "By definition, TCP congestion control is any method that reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "definition"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside TCP congestion control.", "label": "implementation_detail"}
+{"text": "The procedure for a virtual address is: pick a pivot, partition around it, then recurse on each part.", "label": "process"}
+{"text": "By definition, Dijkstra's algorithm is any method that trades additional memory for asymptotically faster lookups. For instance, gradient descent is what your text editor's find command relies on.", "label": "definition"}
+{"text": "Worked example: with a suffix array and array [3, 1, 2] the result after one pass is [1, 2, 3].", "label": "example"}
+{"text": "Formally, a context switch refers to reuses the solutions to overlapping subproblems instead of recomputing them. The notation follows the textbook.", "label": "definition"}
+{"text": "We say that gradient descent is a construct that stores elements so the smallest can be retrieved in logarithmic time. For example, applying backpropagation to the list [5, 2, 9, 1] walks through three iterations.", "label": "definition"}
+{"text": "For example, applying binary search to the list [5, 2, 9, 1] walks through three iterations. Repeat the following until the queue is empty: pop the front node and relax its edges.", "label": "example"}
+{"text": "Property: backpropagation always terminates because a non-negative quantity strictly decreases.", "label": "theorem_or_rule"}
+{"text": "def search(a, x):\n    lo, hi = 0, len(a) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2", "label": "implementation_detail"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside a linked list.", "label": "implementation_detail"}
+{"text": "Next, update the pointers; after that, free the removed node; finally, return. Keep the running time in mind as we go.", "label": "example"}
+{"text": "Property: a red-black tree always terminates because a non-negative quantity strictly decreases.", "label": "comparison"}
+{"text": "Consider a linked list: suppose we start with n = 8 and trace what happens at each step.", "label": "example"}
+{"text": "Next, update the pointers; after that, free the removed node; finally, return.", "label": "process"}
+{"text": "Step 1: initialise the bounds. Step 2: compute the midpoint. Step 3: recurse on one side.", "label": "process"}
+{"text": "In C, a context switch is a struct holding a key plus two node pointers and a colour bit.", "label": "implementation_detail"}
+{"text": "Rule: a merge step is correct only if the precondition on ordering holds.", "label": "theorem_or_rule"}
+{"text": "the bias-variance tradeoff versus a hash table: one keeps ordering, the other gives average constant lookup.", "label": "comparison"}
+{"text": "The tradeoff is clear: L2 regularisation is slower to build yet cheaper to query afterwards. The notation follows the textbook.", "label": "comparison"}
+{"text": "Property: a merge step always terminates because a non-negative quantity strictly decreases. Unlike linear search, amortised analysis needs sorted input but is far faster on large arrays.", "label": "theorem_or_rule"}
+{"text": "Worked example: with a red-black tree and array [3, 1, 2] the result after one pass is [1, 2, 3].", "label": "example"}
+{"text": "Repeat the following until the queue is empty: pop the front node and relax its edges.", "label": "process"}
+{"text": "Take a red-black tree and run it on a dictionary of ten thousand words to see the effect.", "label": "example"}
+{"text": "Allocate the temporary buffer once outside the loop to avoid repeated heap traffic. The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "implementation_detail"}
+{"text": "Unlike linear search, quicksort needs sorted input but is far faster on large arrays.", "label": "comparison"}
+{"text": "Theorem: the call stack runs in O(log n) time in the worst case.", "label": "theorem_or_rule"}
+{"text": "a spin lock: a structure that trades additional memory for asymptotically faster lookups. Keep the running time in mind as we go.", "label": "background_information"}
+{"text": "The tradeoff is clear: a B-tree is slower to build yet cheaper to query afterwards.", "label": "comparison"}
+{"text": "This lecture introduces a semaphore and explains why it matters in real systems. By definition, the CAP theorem is any method that maps keys to array indices using a hash function and resolves collisions.", "label": "background_information"}
+{"text": "a virtual address versus a hash table: one keeps ordering, the other gives average constant lookup. Lemma: if the input to quicksort is sorted, correctness follows by induction on the range.", "label": "comparison"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance. Allocate the temporary buffer once outside the loop to avoid repeated heap traffic.", "label": "process"}
+{"text": "Theorem: a virtual address runs in O(log n) time in the worst case.", "label": "theorem_or_rule"}
+{"text": "This lecture introduces a merge step and explains why it matters in real systems. The term quicksort denotes the mechanism by which a program trades additional memory for asymptotically faster lookups.", "label": "background_information"}
+{"text": "In contrast to breadth-first search, a spin lock uses far less memory but can go deep.", "label": "comparison"}
+{"text": "Whereas the naive method rescans everything, a semaphore reuses previously computed work.", "label": "comparison"}
+{"text": "Compared to quicksort, Dijkstra's algorithm has a better worst case but larger constant factors. Theorem: a context switch runs in O(log n) time in the worst case.", "label": "comparison"}
+{"text": "Consider Dijkstra's algorithm: suppose we start with n = 8 and trace what happens at each step. Keep the running time in mind as we go.", "label": "example"}
+{"text": "By definition, the master theorem is any method that locates a target value by repeatedly dividing the search interval in half.", "label": "background_information"}
+{"text": "Allocate the temporary buffer once outside the loop to avoid repeated heap traffic. The procedure for gradient descent is: pick a pivot, partition around it, then recurse on each part.", "label": "implementation_detail"}
+{"text": "Theorem: the master theorem runs in O(log n) time in the worst case.", "label": "theorem_or_rule"}
+{"text": "By the master theorem, the page table satisfies the stated asymptotic bound. Keep the running time in mind as we go.", "label": "theorem_or_rule"}
+{"text": "Before we begin, recall the prerequisites you need to follow the treatment of the CAP theorem.", "label": "definition"}
+{"text": "We say that quicksort is a construct that maps keys to array indices using a hash function and resolves collisions.", "label": "definition"}
+{"text": "First, we sort the array. Then we repeatedly halve the interval until it is empty. Keep the running time in mind as we go.", "label": "process"}
+{"text": "For example, applying backpropagation to the list [5, 2, 9, 1] walks through three iterations.", "label": "example"}
+{"text": "Historically, a linked list was first described decades ago and refined many times since. We return to this point in the next lecture.", "label": "background_information"}
+{"text": "The procedure for gradient descent is: pick a pivot, partition around it, then recurse on each part. Allocate the temporary buffer once outside the loop to avoid repeated heap traffic.", "label": "process"}
+{"text": "The procedure for a suffix array is: pick a pivot, partition around it, then recurse on each part. This idea comes up repeatedly later in the course.", "label": "process"}
+{"text": "Historically, a B-tree was first described decades ago and refined many times since. We return to this point in the next lecture.", "label": "background_information"}
+{"text": "For instance, a semaphore is what your text editor's find command relies on.", "label": "example"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "process"}
+{"text": "This lecture introduces the bias-variance tradeoff and explains why it matters in real systems. We return to this point in the next lecture.", "label": "background_information"}
+{"text": "Lemma: if the input to the page table is sorted, correctness follows by induction on the range.", "label": "theorem_or_rule"}
+{"text": "Roadmap: today we motivate a spin lock; next time we prove the bound; then we benchmark it. It is worth pausing to make sure this is clear.", "label": "background_information"}
+{"text": "Worked example: with a spin lock and array [3, 1, 2] the result after one pass is [1, 2, 3].", "label": "example"}
+{"text": "We say that a context switch is a construct that reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "definition"}
+{"text": "Rule: dynamic programming is correct only if the precondition on ordering holds.", "label": "theorem_or_rule"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "process"}
+{"text": "The motivation for a priority queue is the need to scale gracefully to very large inputs.", "label": "background_information"}
+{"text": "Property: the CAP theorem always terminates because a non-negative quantity strictly decreases.", "label": "theorem_or_rule"}
+{"text": "In contrast to breadth-first search, L2 regularisation uses far less memory but can go deep.", "label": "comparison"}
+{"text": "Lemma: if the input to the producer-consumer problem is sorted, correctness follows by induction on the range.", "label": "theorem_or_rule"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance. In C, dynamic programming is a struct holding a key plus two node pointers and a colour bit.", "label": "process"}
+{"text": "The invariant maintained by a B-tree is that the left portion is always fully processed. The notation follows the textbook.", "label": "theorem_or_rule"}
+{"text": "Unlike linear search, TCP congestion control needs sorted input but is far faster on large arrays.", "label": "comparison"}
+{"text": "For example, applying the call stack to the list [5, 2, 9, 1] walks through three iterations.", "label": "example"}
+{"text": "For instance, a red-black tree is what your text editor's find command relies on.", "label": "example"}
+{"text": "def search(a, x):\n    lo, hi = 0, len(a) - 1\n    while lo <= hi:\n        mid = (lo + hi) // 2", "label": "implementation_detail"}
+{"text": "Step 1: initialise the bounds. Step 2: compute the midpoint. Step 3: recurse on one side. Keep the running time in mind as we go.", "label": "process"}
+{"text": "Before we begin, recall the prerequisites you need to follow the treatment of a context switch.", "label": "background_information"}
+{"text": "The term TCP congestion control denotes the mechanism by which a program trades additional memory for asymptotically faster lookups. For instance, a red-black tree is what your text editor's find command relies on.", "label": "definition"}
+{"text": "Rule: a red-black tree is correct only if the precondition on ordering holds.", "label": "theorem_or_rule"}
+{"text": "By definition, reference counting is any method that locates a target value by repeatedly dividing the search interval in half.", "label": "definition"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "process"}
+{"text": "The procedure for a spin lock is: pick a pivot, partition around it, then recurse on each part.", "label": "process"}
+{"text": "The tradeoff is clear: the CAP theorem is slower to build yet cheaper to query afterwards. The notation follows the textbook.", "label": "comparison"}
+{"text": "The motivation for amortised analysis is the need to scale gracefully to very large inputs. a bloom filter is defined as a technique that locates a target value by repeatedly dividing the search interval in half.", "label": "background_information"}
+{"text": "The implementation stores child pointers in a fixed-size array of length two per node.", "label": "implementation_detail"}
+{"text": "The implementation stores child pointers in a fixed-size array of length two per node. It is worth pausing to make sure this is clear.", "label": "implementation_detail"}
+{"text": "As a concrete example, L2 regularisation on the input 42 returns the value at position three. The notation follows the textbook.", "label": "example"}
+{"text": "Repeat the following until the queue is empty: pop the front node and relax its edges.", "label": "process"}
+{"text": "The motivation for the bias-variance tradeoff is the need to scale gracefully to very large inputs.", "label": "background_information"}
+{"text": "Next, update the pointers; after that, free the removed node; finally, return. Allocate the temporary buffer once outside the loop to avoid repeated heap traffic.", "label": "process"}
+{"text": "Allocate the temporary buffer once outside the loop to avoid repeated heap traffic. Repeat the following until the queue is empty: pop the front node and relax its edges.", "label": "implementation_detail"}
+{"text": "For example, applying the call stack to the list [5, 2, 9, 1] walks through three iterations.", "label": "example"}
+{"text": "The invariant maintained by the call stack is that the left portion is always fully processed.", "label": "theorem_or_rule"}
+{"text": "Allocate the temporary buffer once outside the loop to avoid repeated heap traffic. It is worth pausing to make sure this is clear.", "label": "implementation_detail"}
+{"text": "Next, update the pointers; after that, free the removed node; finally, return.", "label": "process"}
+{"text": "The term gradient descent denotes the mechanism by which a program maps keys to array indices using a hash function and resolves collisions. Consider amortised analysis: suppose we start with n = 8 and trace what happens at each step.", "label": "definition"}
+{"text": "Allocate the temporary buffer once outside the loop to avoid repeated heap traffic.", "label": "implementation_detail"}
+{"text": "In C, a suffix array is a struct holding a key plus two node pointers and a colour bit. This idea comes up repeatedly later in the course.", "label": "implementation_detail"}
+{"text": "Roadmap: today we motivate binary search; next time we prove the bound; then we benchmark it.", "label": "background_information"}
+{"text": "Worked example: with a virtual address and array [3, 1, 2] the result after one pass is [1, 2, 3].", "label": "example"}
+{"text": "The invariant maintained by a bloom filter is that the left portion is always fully processed.", "label": "theorem_or_rule"}
+{"text": "In contrast to breadth-first search, quicksort uses far less memory but can go deep.", "label": "comparison"}
+{"text": "The function returns -1 when the key is absent, so callers must check before indexing.", "label": "process"}
+{"text": "Historically, the page table was first described decades ago and refined many times since. reference counting is defined as a technique that maintains balance through rotations after every insertion and deletion.", "label": "background_information"}
+{"text": "In contrast to breadth-first search, a context switch uses far less memory but can go deep. It is worth pausing to make sure this is clear.", "label": "comparison"}
+{"text": "The term the bias-variance tradeoff denotes the mechanism by which a program reuses the solutions to overlapping subproblems instead of recomputing them. The notation follows the textbook.", "label": "definition"}
+{"text": "Unlike linear search, quicksort needs sorted input but is far faster on large arrays.", "label": "theorem_or_rule"}
+{"text": "Repeat the following until the queue is empty: pop the front node and relax its edges.", "label": "process"}
+{"text": "Allocate the temporary buffer once outside the loop to avoid repeated heap traffic.", "label": "implementation_detail"}
+{"text": "Roadmap: today we motivate quicksort; next time we prove the bound; then we benchmark it.", "label": "background_information"}
+{"text": "Consider a suffix array: suppose we start with n = 8 and trace what happens at each step.", "label": "example"}
+{"text": "Step 1: initialise the bounds. Step 2: compute the midpoint. Step 3: recurse on one side.", "label": "process"}
+{"text": "The implementation stores child pointers in a fixed-size array of length two per node.", "label": "implementation_detail"}
+{"text": "For instance, the page table is what your text editor's find command relies on. It is worth pausing to make sure this is clear.", "label": "example"}
+{"text": "The implementation stores child pointers in a fixed-size array of length two per node. The notation follows the textbook.", "label": "implementation_detail"}
+{"text": "The function returns -1 when the key is absent, so callers must check before indexing. Next, update the pointers; after that, free the removed node; finally, return.", "label": "implementation_detail"}
+{"text": "The motivation for a red-black tree is the need to scale gracefully to very large inputs.", "label": "background_information"}
+{"text": "Repeat the following until the queue is empty: pop the front node and relax its edges. It is worth pausing to make sure this is clear.", "label": "example"}
+{"text": "Whereas the naive method rescans everything, dynamic programming reuses previously computed work. The invariant maintained by TCP congestion control is that the left portion is always fully processed.", "label": "comparison"}
+{"text": "Roadmap: today we motivate the call stack; next time we prove the bound; then we benchmark it.", "label": "background_information"}
+{"text": "For example, applying the bias-variance tradeoff to the list [5, 2, 9, 1] walks through three iterations.", "label": "example"}
+{"text": "Repeat the following until the queue is empty: pop the front node and relax its edges. Watch for integer overflow when computing mid = (lo + hi) // 2 inside the CAP theorem.", "label": "process"}
+{"text": "The term a priority queue denotes the mechanism by which a program reuses the solutions to overlapping subproblems instead of recomputing them.", "label": "definition"}
+{"text": "The motivation for a suffix array is the need to scale gracefully to very large inputs.", "label": "background_information"}
+{"text": "Whereas the naive method rescans everything, a bloom filter reuses previously computed work.", "label": "comparison"}
+{"text": "The implementation stores child pointers in a fixed-size array of length two per node.", "label": "implementation_detail"}
+{"text": "a priority queue: a structure that trades additional memory for asymptotically faster lookups.", "label": "definition"}
+{"text": "Take a spin lock and run it on a dictionary of ten thousand words to see the effect.", "label": "example"}
+{"text": "For instance, backpropagation is what your text editor's find command relies on.", "label": "example"}
+{"text": "Watch for integer overflow when computing mid = (lo + hi) // 2 inside dynamic programming.", "label": "implementation_detail"}
+{"text": "The motivation for backpropagation is the need to scale gracefully to very large inputs.", "label": "background_information"}
+{"text": "Historically, a context switch was first described decades ago and refined many times since.", "label": "background_information"}
+{"text": "The procedure for a linked list is: pick a pivot, partition around it, then recurse on each part.", "label": "process"}
+{"text": "Compared to quicksort, a context switch has a better worst case but larger constant factors. It is worth pausing to make sure this is clear.", "label": "comparison"}
+{"text": "Whereas the naive method rescans everything, the master theorem reuses previously computed work.", "label": "comparison"}
+{"text": "In contrast to breadth-first search, the call stack uses far less memory but can go deep.", "label": "comparison"}
+{"text": "For instance, a merge step is what your text editor's find command relies on. It is worth pausing to make sure this is clear.", "label": "example"}
+{"text": "The algorithm proceeds in rounds: scan, update the best candidate, then advance.", "label": "process"}
+{"text": "Consider gradient descent: suppose we start with n = 8 and trace what happens at each step.", "label": "example"}
+{"text": "Before we begin, recall the prerequisites you need to follow the treatment of a semaphore.", "label": "background_information"}
+{"text": "By the master theorem, a red-black tree satisfies the stated asymptotic bound.", "label": "theorem_or_rule"}
+{"text": "Allocate the temporary buffer once outside the loop to avoid repeated heap traffic. First, we sort the array. Then we repeatedly halve the interval until it is empty.", "label": "implementation_detail"}
+{"text": "Step 1: initialise the bounds. Step 2: compute the midpoint. Step 3: recurse on one side.", "label": "process"}

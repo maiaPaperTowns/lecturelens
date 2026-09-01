@@ -1,0 +1,84 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  backend:
+    name: Backend · lint + tests + ML pipeline
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: backend/requirements-dev.txt
+
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Ruff (lint)
+        run: ruff check app scripts tests
+
+      - name: Pytest (unit + integration)
+        run: pytest -q --cov=app --cov-report=term-missing
+
+      - name: Build training data + train models (smoke)
+        run: |
+          python scripts/build_training_data.py
+          python scripts/train_models.py --epochs 30
+
+      - name: Evaluate models (sklearn vs PyTorch)
+        run: python scripts/evaluate_models.py --json-only
+
+      - name: Upload evaluation report
+        uses: actions/upload-artifact@v4
+        with:
+          name: model-evaluation-report
+          path: backend/models/evaluation_report.json
+          if-no-files-found: warn
+
+  frontend:
+    name: Frontend · lint + typecheck + tests + build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci || npm install
+
+      - name: ESLint
+        run: npm run lint
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Vitest
+        run: npm test
+
+      - name: Production build
+        run: npm run build
+
+  docker:
+    name: Docker · compose build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build images
+        run: docker compose build

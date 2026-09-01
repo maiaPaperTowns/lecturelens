@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply antialiased;
+  }
+  body {
+    @apply bg-paper font-sans text-ink;
+    font-feature-settings: "ss01", "cv05";
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+    letter-spacing: -0.01em;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    @apply text-[0.68rem] font-medium uppercase tracking-label text-ink-faint;
+  }
+  .card {
+    @apply rounded-lg border border-line bg-card shadow-card;
+  }
+  .hairline {
+    @apply border-line;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 text-xs font-medium uppercase tracking-label
+      transition focus:outline-none focus:ring-2 focus:ring-ember/40 disabled:cursor-not-allowed
+      disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply btn rounded-full bg-ember px-6 py-3 text-ink hover:bg-[#d9842f];
+  }
+  .btn-ghost {
+    @apply btn rounded-full border border-ink/20 px-5 py-2.5 text-ink-soft hover:border-ink/40
+      hover:text-ink;
+  }
+  .btn-dark {
+    @apply btn rounded-full bg-wine px-6 py-3 text-paper hover:bg-wine-deep;
+  }
+  .input {
+    @apply w-full rounded-md border border-line bg-card px-3 py-2 text-sm text-ink
+      focus:border-wine focus:outline-none focus:ring-2 focus:ring-wine/20;
+  }
+  .badge {
+    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-[0.7rem] font-medium;
+  }
+  .bracket {
+    @apply relative;
+  }
+  .bracket::before,
+  .bracket::after {
+    content: "";
+    @apply pointer-events-none absolute h-4 w-4 border-ember;
+  }
+  .bracket::before {
+    @apply left-0 top-0 border-l border-t;
+  }
+  .bracket::after {
+    @apply bottom-0 right-0 border-b border-r;
+  }
+}
