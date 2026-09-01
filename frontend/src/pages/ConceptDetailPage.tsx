@@ -67,7 +67,7 @@ export function ConceptDetailPage() {
                     {p.model_name}@{p.model_version}
                   </td>
                   <td className="text-right tabular-nums text-ink-faint">
-                    {p.latency_ms ? `${p.latency_ms.toFixed(1)} ms` : ", "}
+                    {p.latency_ms ? `${p.latency_ms.toFixed(1)} ms` : "n/a"}
                   </td>
                 </tr>
               ))}

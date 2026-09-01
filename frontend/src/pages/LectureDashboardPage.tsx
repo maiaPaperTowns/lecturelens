@@ -109,7 +109,7 @@ export function LectureDashboardPage() {
         </div>
         {isAnalyzed && (
           <Link to={`/lectures/${id}/clusters`} className="btn-ghost">
-            View study clusters →
+            View study clusters
           </Link>
         )}
       </div>
@@ -141,11 +141,11 @@ export function LectureDashboardPage() {
       {isAnalyzed && (
         <>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
-            <SummaryCard label="Concepts" value={concepts.data?.total ?? ", "} />
-            <SummaryCard label="Study clusters" value={clusters.data?.total ?? ", "} />
+            <SummaryCard label="Concepts" value={concepts.data?.total ?? "n/a"} />
+            <SummaryCard label="Study clusters" value={clusters.data?.total ?? "n/a"} />
             <SummaryCard
               label="Avg difficulty"
-              value={stats.avgScore ? stats.avgScore.toFixed(2) : ", "}
+              value={stats.avgScore ? stats.avgScore.toFixed(2) : "n/a"}
               hint={`${stats.counts.hard} hard · ${stats.counts.medium} medium · ${stats.counts.easy} easy`}
             />
             <SummaryCard
@@ -156,14 +156,14 @@ export function LectureDashboardPage() {
                     {stats.hardest.name}
                   </Link>
                 ) : (
-                  ", "
+                  "n/a"
                 )
               }
               hint={stats.hardest?.difficulty_label ? DIFFICULTY_LABELS[stats.hardest.difficulty_label] : undefined}
             />
             <SummaryCard
               label="Top cluster"
-              value={stats.topCluster?.label ?? ", "}
+              value={stats.topCluster?.label ?? "n/a"}
               hint={
                 stats.topCluster
                   ? `importance ${Math.round(stats.topCluster.importance_score * 100)}%`

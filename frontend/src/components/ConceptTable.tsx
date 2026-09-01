@@ -68,7 +68,7 @@ export function ConceptTable({ concepts, sortBy, descending, onSort }: Props) {
                 <td className="px-4 py-3">
                   <ConfidenceMeter value={concept.concept_type_confidence} />
                 </td>
-                <td className="px-4 py-3 text-ink-soft">{concept.cluster_label ?? ", "}</td>
+                <td className="px-4 py-3 text-ink-soft">{concept.cluster_label ?? "n/a"}</td>
                 <td className="px-4 py-3 tabular-nums text-ink-faint">
                   {concept.source_page ? `p.${concept.source_page}` : `#${concept.order_index + 1}`}
                 </td>

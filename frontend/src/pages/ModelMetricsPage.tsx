@@ -17,7 +17,7 @@ import { api } from "../services/api";
 
 function metricValue(metrics: Record<string, unknown>, key: string): string {
   const v = metrics[key];
-  return typeof v === "number" ? v.toFixed(3) : ", ";
+  return typeof v === "number" ? v.toFixed(3) : "n/a";
 }
 
 export function ModelMetricsPage() {
@@ -75,7 +75,7 @@ export function ModelMetricsPage() {
                 <td className="tabular-nums">{metricValue(model.metrics, "accuracy")}</td>
                 <td className="tabular-nums">{metricValue(model.metrics, "f1_macro")}</td>
                 <td className="text-xs text-ink-faint">
-                  {model.trained_at ? model.trained_at.slice(0, 10) : ", "}
+                  {model.trained_at ? model.trained_at.slice(0, 10) : "n/a"}
                 </td>
                 <td>
                   {model.is_active ? (
@@ -89,8 +89,8 @@ export function ModelMetricsPage() {
           </tbody>
         </table>
         <p className="mt-3 text-xs text-ink-faint">
-          Latency, avg {data.predictions.avg_latency_ms ?? ", "} ms, p95{" "}
-          {data.predictions.p95_latency_ms ?? ", "} ms. Compare families by running{" "}
+          Latency, avg {data.predictions.avg_latency_ms ?? "n/a"} ms, p95{" "}
+          {data.predictions.p95_latency_ms ?? "n/a"} ms. Compare families by running{" "}
           <code className="rounded bg-line/60 px-1">python scripts/evaluate_models.py</code>.
         </p>
       </div>
@@ -127,7 +127,7 @@ export function ModelMetricsPage() {
             <ul className="space-y-2 text-sm">
               {data.feedback.recent.slice(0, 8).map((entry, i) => (
                 <li key={i} className="rounded-lg bg-paper px-3 py-2 text-xs text-ink-soft">
-                  concept #{String(entry.concept_id)} · {String(entry.predicted_label ?? "?")} →{" "}
+                  concept #{String(entry.concept_id)} · {String(entry.predicted_label ?? "?")} to{" "}
                   {String(entry.corrected_label ?? entry.difficulty_direction ?? "note")}
                 </li>
               ))}

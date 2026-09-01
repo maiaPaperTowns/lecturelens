@@ -23,7 +23,7 @@ export function ClusterViewPage() {
           )}
         </div>
         <Link to={`/lectures/${id}`} className="btn-ghost">
-          ← Back to dashboard
+          Back to dashboard
         </Link>
       </div>
 
