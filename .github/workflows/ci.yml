@@ -12,6 +12,12 @@ jobs:
     defaults:
       run:
         working-directory: backend
+    env:
+      # the training / evaluation scripts default to /models and /data which the
+      # runner cannot write to; point them at the workspace instead.
+      MODELS_DIR: ${{ github.workspace }}/backend/models
+      UPLOAD_DIR: ${{ github.workspace }}/backend/data/uploads
+      DATABASE_URL: sqlite:///./ci.db
     steps:
       - uses: actions/checkout@v5
 
