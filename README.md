@@ -52,7 +52,7 @@ upload your own lectures.
 
 ```mermaid
 flowchart TD
-    U[Student] -->|uploads PDF / TXT / MD| FE[React + TypeScript SPA]
+    U[Student] -->|uploads PDF / image / TXT / MD| FE[React + TypeScript SPA]
     FE -->|REST /api| API[FastAPI]
 
     subgraph Backend
@@ -105,7 +105,7 @@ The layers are cleanly separated:
 | Frontend | React 18, TypeScript, Vite, Tailwind CSS, React Router, Recharts |
 | Backend | Python 3.11, FastAPI, Pydantic v2, Uvicorn |
 | ML | PyTorch (neural classifiers), scikit-learn (baselines, clustering, metrics, TF-IDF/SVD) |
-| File processing | PyMuPDF (PDF), native text/Markdown |
+| File processing | PyMuPDF (PDF), Tesseract OCR (images + scanned PDFs), native text/Markdown |
 | Database | PostgreSQL 16, SQLAlchemy 2.0, Alembic migrations |
 | Testing | pytest + httpx (backend), Vitest + Testing Library (frontend) |
 | Tooling | Ruff, ESLint, mypy-ready type hints |
@@ -120,7 +120,8 @@ The layers are cleanly separated:
 Pure, unit-tested functions, never called directly from a route.
 
 - **Extraction**, PyMuPDF for PDFs (with a slide-deck heuristic), native reader
-  for TXT/MD. Page/slide numbers preserved.
+  for TXT/MD, and Tesseract OCR for images (JPG/PNG) and scanned PDFs with no
+  text layer. Page/slide numbers preserved.
 - **Cleaning**, unicode normalisation, de-hyphenation across line breaks,
   running-header/footer removal, whitespace collapsing.
 - **Chunking**, paragraph-aware splitting that keeps `page_number`,
@@ -280,7 +281,7 @@ Interactive docs at `/docs` (Swagger) and `/redoc`. All errors share the shape
 | Method | Path | Description |
 | --- | --- | --- |
 | `GET` | `/api/health` | Service + DB + model-version health |
-| `POST` | `/api/uploads` | Multipart upload (`course_name`, `lecture_title`, `files[]`) |
+| `POST` | `/api/uploads` | Multipart upload (`course_name`, `lecture_title`, `files[]`); accepts PDF, JPG/PNG, TXT and MD |
 | `GET` | `/api/uploads` | List previous uploads |
 | `GET` | `/api/uploads/{id}` | Upload / lecture detail |
 | `POST` | `/api/analyze/{upload_id}` | Run the full ML pipeline (idempotent) |
@@ -402,7 +403,7 @@ smoke, frontend lint + typecheck + tests + build, and `docker compose build`.
 - Real authentication + per-user lecture ownership (schema already supports it)
 - Automated retraining from exported feedback with champion/challenger promotion
 - Sentence-transformer embeddings as an optional swap for the TF-IDF/SVD encoder
-- OCR fallback for scanned PDFs
+- Layout-aware OCR (tables, multi-column) and non-English language packs
 - Spaced-repetition export (Anki) from the study map
 - UMAP projection when the dependency is available
 

@@ -7,9 +7,9 @@ ENV PYTHONUNBUFFERED=1 \
 
 WORKDIR /app
 
-# System deps: build tools for a few wheels + libs PyMuPDF/psycopg2 need at runtime
+# System deps: build tools for a few wheels, libpq (psycopg2), tesseract (image OCR)
 RUN apt-get update && apt-get install -y --no-install-recommends \
-        build-essential libpq5 curl \
+        build-essential libpq5 curl tesseract-ocr \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
