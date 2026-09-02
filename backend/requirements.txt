@@ -22,6 +22,8 @@ torch==2.3.1
 # File processing
 pymupdf==1.24.7
 pdfplumber==0.11.1
+pillow==10.4.0
+pytesseract==0.3.10  # needs the `tesseract-ocr` system binary (installed in the Dockerfile)
 
 # Utils
 python-dotenv==1.0.1

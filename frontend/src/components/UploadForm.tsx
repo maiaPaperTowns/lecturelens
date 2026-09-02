@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 import { api, ApiRequestError, uploadLecture } from "../services/api";
 
-const ACCEPTED = [".pdf", ".txt", ".md", ".markdown"];
+const ACCEPTED = [".pdf", ".txt", ".md", ".markdown", ".jpg", ".jpeg", ".png"];
 const MAX_MB = 25;
 
 function isAccepted(file: File): boolean {
@@ -27,7 +27,7 @@ export function UploadForm() {
     const next: File[] = [];
     for (const file of Array.from(incoming)) {
       if (!isAccepted(file)) {
-        setError(`"${file.name}" is not a supported file type (PDF, TXT, MD).`);
+        setError(`"${file.name}" is not a supported file type (PDF, image, TXT, MD).`);
         continue;
       }
       if (file.size > MAX_MB * 1024 * 1024) {
@@ -120,7 +120,7 @@ export function UploadForm() {
             browse
           </button>
         </p>
-        <p className="mt-1 text-xs text-ink-faint">PDF, TXT, or Markdown · up to {MAX_MB} MB each</p>
+        <p className="mt-1 text-xs text-ink-faint">PDF, image (JPG/PNG), TXT or Markdown · up to {MAX_MB} MB each</p>
         <input
           ref={inputRef}
           type="file"

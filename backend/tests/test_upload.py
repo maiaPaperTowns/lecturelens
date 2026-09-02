@@ -1,7 +1,17 @@
 """Upload endpoint + invalid-file handling."""
 from __future__ import annotations
 
+import importlib.util
 import io
+import shutil
+
+import pytest
+
+_HAS_OCR = (
+    shutil.which("tesseract") is not None
+    and importlib.util.find_spec("pytesseract") is not None
+    and importlib.util.find_spec("PIL") is not None
+)
 
 
 def _upload(client, filename: str, content: bytes, content_type: str = "text/markdown"):
@@ -10,6 +20,20 @@ def _upload(client, filename: str, content: bytes, content_type: str = "text/mar
         data={"course_name": "CS 201", "lecture_title": "Test Lecture"},
         files={"files": (filename, io.BytesIO(content), content_type)},
     )
+
+
+def _png_with_text(text: str) -> bytes:
+    from PIL import Image, ImageDraw, ImageFont
+
+    try:
+        font = ImageFont.truetype("DejaVuSans.ttf", 40)
+    except OSError:
+        font = ImageFont.load_default(size=40)
+    img = Image.new("RGB", (1100, 260), "white")
+    ImageDraw.Draw(img).text((40, 90), text, fill="black", font=font)
+    buf = io.BytesIO()
+    img.save(buf, format="PNG")
+    return buf.getvalue()
 
 
 def test_upload_markdown_succeeds(client, sample_markdown):
@@ -29,6 +53,27 @@ def test_upload_rejects_unsupported_extension(client):
 
 def test_upload_rejects_empty_file(client):
     resp = _upload(client, "empty.txt", b"", "text/plain")
+    assert resp.status_code == 422
+    assert resp.json()["error"]["code"] == "invalid_file"
+
+
+@pytest.mark.skipif(not _HAS_OCR, reason="tesseract / pytesseract not available")
+def test_upload_image_runs_ocr(client):
+    png = _png_with_text("Merge Sort divides the list in half")
+    resp = _upload(client, "slide.png", png, "image/png")
+    assert resp.status_code == 201, resp.text
+    file_row = resp.json()["lecture"]["files"][0]
+    assert file_row["file_type"] == "image"
+    assert file_row["page_count"] == 1
+
+
+@pytest.mark.skipif(not _HAS_OCR, reason="tesseract / pytesseract not available")
+def test_upload_rejects_textless_image(client):
+    from PIL import Image
+
+    buf = io.BytesIO()
+    Image.new("RGB", (300, 200), "white").save(buf, format="PNG")
+    resp = _upload(client, "blank.png", buf.getvalue(), "image/png")
     assert resp.status_code == 422
     assert resp.json()["error"]["code"] == "invalid_file"
 
